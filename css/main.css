@@ -66,6 +66,21 @@
   content: "\e605";
 }
 
+.wrapper {
+  margin: 6%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 0.01em;
+}
+
+p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 0.02em;
+  color: #2C3E50;
+}
+
 ul {
   list-style-type: none;
 }
@@ -75,6 +90,32 @@ a {
 }
 
 @media (max-width: 768px) {
+  header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #2574A9;
+    height: 13%;
+    padding-top: 1%;
+  }
+  header h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 0;
+    color: white;
+    margin: 0;
+  }
+  header h2 {
+    text-align: center;
+    font-size: 14px;
+    margin: 0 0 2% 0;
+    color: white;
+  }
+  header ul {
+    display: none;
+  }
+
   footer {
     position: fixed;
     bottom: 0;
