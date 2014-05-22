@@ -3,8 +3,6 @@
 <head>
 	<!-- Montserrat for the overall style guide and not project -->
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'> 
-	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 
 	<meta charset="UTF-8">
 	<title>Style Guide</title>
@@ -19,24 +17,32 @@
 		<!-- Add your own colour swatches down here! -->
 		<ul class="colours">
 			<li>
-				<span class="swatch" style="background: #2574A9;"></span>		
-				<p class="label">darker blue | #2574A9</p>
+				<span class="swatch" style="background: #85D4E3;"></span>		
+				<p class="label">blue | #85D4E3</p>
 			</li>
 			<li>
-				<span class="swatch" style="background: #C5EFF7;"></span>		
-				<p class="label">lighter blue | #C5EFF7</p>
+				<span class="swatch" style="background: #F4B5BD;"></span>		
+				<p class="label">pink | #F4B5BD</p>
 			</li>
 			<li>
-				<span class="swatch" style="background: #F9BF3B;"></span>		
-				<p class="label">gold | #F9BF3B</p>
+				<span class="swatch" style="background: #9C964A;"></span>		
+				<p class="label">dark green | #9C964A</p>
 			</li>
 			<li>
-				<span class="swatch" style="background: #EEEEEE;"></span>		
-				<p class="label">off white | #EEEEEE</p>
+				<span class="swatch" style="background: #CDC08C;"></span>		
+				<p class="label">light green | #CDC08C</p>
+			</li>
+			<li>
+				<span class="swatch" style="background: #FAD77B;"></span>		
+				<p class="label">yellow | #FAD77B</p>
 			</li>
 			<li>
 				<span class="swatch" style="background: #2C3E50;"></span>		
 				<p class="label">off black | #2C3E50</p>
+			</li>
+			<li>
+				<span class="swatch" style="background: #D3DDDC;"></span>		
+				<p class="label">grey | #D3DDDC</p>
 			</li>
 		</ul>
 	</div>
@@ -45,11 +51,11 @@
 		<h2 class="section-title">Typography</h2>
 
 		<div class="typography">
-			<h1>Jared Phillips</h1>
-			<h3>Designer & Web Developer</h3>
+			<h1>JARED PHILLIPS</h1>
+			<h3>DESIGNER & WEB DEVELOPER</h3>
 			<p>This is a sample paragraph. I do not clearly remember the arrival of the curate, so that probably I dozed. I became aware of him as a seated figure in soot-smudged shirt sleeves, and with his upturned, clean-shaven face staring at a faint flickering that danced over the sky. The sky was what is called a mackerel sky--rows and rows of faint down-plumes of cloud, just tinted with the midsummer sunset.</p>
 
-			<h2>I'm a subheading</h2>
+			<h2>I'M A SUBHEADING</h2>
 
 			<p>Paragraphs might also contain <strong>strong text</strong>, <em>emphasized text</em>, and maybe even a <a href="#">link somewhere.</a></p>
 
@@ -63,10 +69,10 @@
 			
 			<blockquote>" This is a blockquote, an element that represents a section that is being quoted from another source."</blockquote>
 
-			<h3>Here are some other headings you might want to use. [h3]</h3>
-			<h4>You should set up some base styles for all of us. [h4]</h4>
-			<h5>Me too, please![h5]</h5>
-			<h6>Don't forget about little 'ol me. [h6]</h6>
+			<h3>HERE IS AN [h3]</h3>
+			<h4>WHAT ABOUT AN [h4]</h4>
+			<h5>THEN AGAIN FOR [h5]</h5>
+			<h6>THEN TINY OLD ME [h6]</h6>
 		</div>
 	</div>
 
@@ -132,7 +138,7 @@
 
 
 		p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
-			font-family: 'Roboto Slab', serif;
+			font-family: 'sofia_pro_lightregular';
 			line-height: 1.45;
 			letter-spacing: 0.02em;
 			color: #2C3E50;
@@ -140,10 +146,9 @@
 
 		h1,	h2, h3, h4, h5, h6 {
 			line-height: 1.45;
-			font-family: 'Lato', sans-serif;			
-			letter-spacing: 0.01em;
-			/*color: #34495E;*/
-			color: #2574A9;
+			font-family: 'novecento_sans_widemedium';			
+			letter-spacing: 2.5px;
+			color: #2C3E50;
 		}
 
 		input {
@@ -270,6 +275,27 @@
 			max-width: 500px;
 			margin-left: 50px;
 		}
+		@font-face {
+	    font-family: 'novecento_sans_widemedium';
+	    src: url('fonts/Novecentosanswide-Medium-webfont.eot');
+	    src: url('fonts/Novecentosanswide-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('fonts/Novecentosanswide-Medium-webfont.woff') format('woff'),
+	         url('fonts/Novecentosanswide-Medium-webfont.ttf') format('truetype'),
+	         url('fonts/Novecentosanswide-Medium-webfont.svg#novecento_sans_widemedium') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+		}
+
+		@font-face {
+	    font-family: 'sofia_pro_lightregular';
+	    src: url('fonts/SofiaProLight-webfont.eot');
+	    src: url('fonts/SofiaProLight-webfont.eot?#iefix') format('embedded-opentype'),
+	         url('fonts/SofiaProLight-webfont.woff') format('woff'),
+	         url('fonts/SofiaProLight-webfont.ttf') format('truetype'),
+	         url('fonts/SofiaProLight-webfont.svg#sofia_pro_lightregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+	  }
 	</style>
 </body>
 </html>

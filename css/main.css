@@ -5,10 +5,34 @@
   padding: 0.2em 0;
 }
 
+.wrapper {
+  margin: 6%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'novecento_sans_widemedium';
+  color: #2c3e50;
+  letter-spacing: 2.5px;
+}
+
+p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
+  font-family: 'sofia_pro_lightregular';
+  letter-spacing: 0.02em;
+  color: #2C3E50;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot");
-  src: url("../fonts/icomoon.eot?#iefixcoyhu2") format("embedded-opentype"), url("../fonts/icomoon.woff?coyhu2") format("woff"), url("../fonts/icomoon.ttf?coyhu2") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?dhdvn3");
+  src: url("../fonts/icomoon.eot?#iefixdhdvn3") format("embedded-opentype"), url("../fonts/icomoon.woff?dhdvn3") format("woff"), url("../fonts/icomoon.ttf?dhdvn3") format("truetype"), url("../fonts/icomoon.svg?dhdvn3#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -26,44 +50,112 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-mobile:before {
+  content: "\e000";
+}
+
+.icon-laptop:before {
+  content: "\e001";
+}
+
+.icon-desktop:before {
+  content: "\e002";
+}
+
+.icon-tablet:before {
+  content: "\e003";
+}
+
 .icon-phone:before {
-  content: "\e600";
+  content: "\e004";
 }
 
-.icon-mail:before {
-  content: "\e601";
-}
-
-.icon-pencil:before {
-  content: "\e602";
-}
-
-.icon-tools:before {
-  content: "\e606";
-}
-
-.icon-megaphone:before {
-  content: "\e607";
-}
-
-.icon-newspaper:before {
-  content: "\e608";
+.icon-calendar:before {
+  content: "\e00d";
 }
 
 .icon-briefcase:before {
-  content: "\e609";
+  content: "\e015";
 }
 
-.icon-github:before {
-  content: "\e603";
+.icon-ribbon:before {
+  content: "\e01e";
+}
+
+.icon-hourglass:before {
+  content: "\e01f";
+}
+
+.icon-megaphone:before {
+  content: "\e021";
+}
+
+.icon-flag:before {
+  content: "\e024";
+}
+
+.icon-map:before {
+  content: "\e025";
+}
+
+.icon-puzzle:before {
+  content: "\e026";
+}
+
+.icon-envelope:before {
+  content: "\e028";
+}
+
+.icon-gears:before {
+  content: "\e02b";
+}
+
+.icon-lightbulb:before {
+  content: "\e030";
+}
+
+.icon-pencil:before {
+  content: "\e032";
+}
+
+.icon-tools:before {
+  content: "\e033";
+}
+
+.icon-tools-2:before {
+  content: "\e034";
+}
+
+.icon-chat:before {
+  content: "\e049";
+}
+
+.icon-facebook:before {
+  content: "\e05d";
 }
 
 .icon-twitter:before {
-  content: "\e604";
+  content: "\e05e";
+}
+
+.icon-googleplus:before {
+  content: "\e05f";
+}
+
+.icon-rss:before {
+  content: "\e060";
+}
+
+.icon-tumblr:before {
+  content: "\e061";
 }
 
 .icon-linkedin:before {
-  content: "\e605";
+  content: "\e062";
+}
+
+.icon-align-justify:before {
+  content: "\e027";
 }
 
 @font-face {
@@ -74,32 +166,17 @@
   font-style: normal;
 }
 
-.wrapper {
-  margin: 6%;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'novecento_sans_widemedium';
-  letter-spacing: 0.06em;
-}
-
-p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
-  font-family: 'Roboto Slab', serif;
-  letter-spacing: 0.02em;
-  color: #2C3E50;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
+@font-face {
+  font-family: 'sofia_pro_lightregular';
+  src: url("../fonts/SofiaProLight-webfont.eot");
+  src: url("../fonts/SofiaProLight-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/SofiaProLight-webfont.woff") format("woff"), url("../fonts/SofiaProLight-webfont.ttf") format("truetype"), url("../fonts/SofiaProLight-webfont.svg#sofia_pro_lightregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 
 @media (max-width: 768px) {
   body {
-    background-color: #EEEEEE;
+    background-color: white;
   }
 
   header {
@@ -109,13 +186,11 @@ a {
     left: 0;
     background-color: white;
     height: 60px;
-    border-bottom: 1px solid #ABB7B7;
+    border-bottom: 2px solid #d3dddc;
   }
   header h1 {
     display: inline-block;
     font-size: 150%;
-    color: #2c3e50;
-    letter-spacing: 2.5px;
     padding: 0 5px;
   }
   header h2 {
@@ -126,7 +201,7 @@ a {
   }
   header .ribbon {
     display: inline-block;
-    background: #3498DB;
+    background: #f4b5bd;
     height: 30px;
     width: 30px;
     position: relative;
@@ -145,7 +220,7 @@ a {
     left: 0;
     height: 0;
     width: 0;
-    border: solid 15px #3498DB;
+    border: solid 15px #f4b5bd;
     border-bottom-color: transparent;
   }
 
@@ -155,29 +230,28 @@ a {
     left: 0;
     background: white;
     width: 100%;
-    border-top: 1px solid #ABB7B7;
   }
   footer ul {
     width: 100%;
-    margin: 1% auto;
-    padding: 1% 0 1% 0;
+    margin: 0 auto;
+    padding: 2% 0 2% 0;
   }
   footer ul li {
     display: inline-block;
     width: 24%;
     text-align: center;
   }
+  footer ul li .footer-link {
+    color: #d3dddc;
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
   footer ul li span {
     display: block;
     font-size: 25px;
     text-align: center;
   }
-  footer ul li .footer-link {
-    color: #2574A9;
-    font-size: 10px;
-  }
   footer ul li .active {
-    transition: .2s;
-    color: #F9BF3B;
+    color: #2c3e50;
   }
 }
