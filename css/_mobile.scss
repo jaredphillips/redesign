@@ -1,28 +1,53 @@
 // Targeting phones in portrait
-@media (max-width: 768px) { 
+@media (max-width: 768px) {
+	body {
+		background-color: #EEEEEE;
+	}
+
 	header {
 		width: 100%;
 		position: fixed;
 		top: 0;
 		left: 0;
-		background-color: #2574A9;
-		height: 13%;
-		padding-top: 1%;
+		background-color: white;
+		height: 60px;
+		border-bottom: 1px solid #ABB7B7;
 		h1 {
-			text-align: center;
-			font-size: 30px;
-			padding: 0;
-			color: white;
-			margin: 0;
+			display: inline-block;
+			font-size: 150%;
+			color: $off-black;
+			letter-spacing: 2.5px;
+			padding: 0 5px;
 		}
 		h2 {
-			text-align: center;
-			font-size: 14px;
-			margin: 0 0 2% 0;
-			color: white;
+			display: none;
 		}
 		ul {
 			display: none;
+		}
+		.ribbon {
+			display: inline-block;
+	    background: #3498DB;
+	    height: 30px;
+	    width: 30px;
+	    position: relative;
+	    top: -10px;
+			left: 2%;
+	    font: 600 16px sans-serif;
+	    color: #fff;
+	    line-height: 27px;
+	    border: 0;
+	    margin-right: 30px;
+		}
+		.ribbon:after {
+	    content: "";
+	    position: absolute;
+	    bottom: -18px;
+	    left: 0;
+	    height: 0;
+	    width: 0;
+	    border: solid 15px #3498DB;
+	    border-bottom-color: transparent;
 		}
 	}
 
@@ -52,6 +77,7 @@
 					font-size: 10px;
 				}
 				.active {
+					transition: .2s;
 					color: #F9BF3B;
 				}
 			}

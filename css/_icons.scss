@@ -1,3 +1,5 @@
+// Icons and fonts 
+
 @font-face {
 	font-family: 'icomoon';
 	src:url('../fonts/icomoon.eot');
@@ -53,3 +55,17 @@
 .icon-linkedin:before {
 	content: "\e605";
 }
+
+@font-face {
+    font-family: 'novecento_sans_widemedium';
+    src: url('../fonts/Novecentosanswide-Medium-webfont.eot');
+    src: url('../fonts/Novecentosanswide-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Novecentosanswide-Medium-webfont.woff') format('woff'),
+         url('../fonts/Novecentosanswide-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/Novecentosanswide-Medium-webfont.svg#novecento_sans_widemedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+

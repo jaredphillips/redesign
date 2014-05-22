@@ -4,8 +4,8 @@
 }
 
 h1,	h2, h3, h4, h5, h6 {
-		font-family: 'Quicksand', sans-serif;
-		letter-spacing: 0.01em;
+		font-family: 'novecento_sans_widemedium';
+		letter-spacing: 0.06em;
 }
 
 p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
@@ -22,6 +22,11 @@ a {
 	text-decoration: none;
 }
 
+$darker-blue: #2574A9;
+$lighter-blue: #C5EFF7;
+$gold: #F9BF3B;
+$off-white: #EEEEEE;
+$off-black: #2C3E50;
 
 
 

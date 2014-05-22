@@ -66,13 +66,21 @@
   content: "\e605";
 }
 
+@font-face {
+  font-family: 'novecento_sans_widemedium';
+  src: url("../fonts/Novecentosanswide-Medium-webfont.eot");
+  src: url("../fonts/Novecentosanswide-Medium-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecentosanswide-Medium-webfont.woff") format("woff"), url("../fonts/Novecentosanswide-Medium-webfont.ttf") format("truetype"), url("../fonts/Novecentosanswide-Medium-webfont.svg#novecento_sans_widemedium") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .wrapper {
   margin: 6%;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Quicksand', sans-serif;
-  letter-spacing: 0.01em;
+  font-family: 'novecento_sans_widemedium';
+  letter-spacing: 0.06em;
 }
 
 p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
@@ -90,30 +98,55 @@ a {
 }
 
 @media (max-width: 768px) {
+  body {
+    background-color: #EEEEEE;
+  }
+
   header {
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #2574A9;
-    height: 13%;
-    padding-top: 1%;
+    background-color: white;
+    height: 60px;
+    border-bottom: 1px solid #ABB7B7;
   }
   header h1 {
-    text-align: center;
-    font-size: 30px;
-    padding: 0;
-    color: white;
-    margin: 0;
+    display: inline-block;
+    font-size: 150%;
+    color: #2c3e50;
+    letter-spacing: 2.5px;
+    padding: 0 5px;
   }
   header h2 {
-    text-align: center;
-    font-size: 14px;
-    margin: 0 0 2% 0;
-    color: white;
+    display: none;
   }
   header ul {
     display: none;
+  }
+  header .ribbon {
+    display: inline-block;
+    background: #3498DB;
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: -10px;
+    left: 2%;
+    font: 600 16px sans-serif;
+    color: #fff;
+    line-height: 27px;
+    border: 0;
+    margin-right: 30px;
+  }
+  header .ribbon:after {
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    height: 0;
+    width: 0;
+    border: solid 15px #3498DB;
+    border-bottom-color: transparent;
   }
 
   footer {
@@ -144,6 +177,7 @@ a {
     font-size: 10px;
   }
   footer ul li .active {
+    transition: .2s;
     color: #F9BF3B;
   }
 }
