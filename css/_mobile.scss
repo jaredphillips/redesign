@@ -31,11 +31,9 @@
 	    position: relative;
 	    top: -10px;
 			left: 2%;
-	    font: 600 16px sans-serif;
-	    color: #fff;
-	    line-height: 27px;
 	    border: 0;
 	    margin-right: 30px;
+	    visibility: hidden;
 		}
 		.ribbon:after {
 	    content: "";
