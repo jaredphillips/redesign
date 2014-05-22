@@ -5,10 +5,6 @@
   padding: 0.2em 0;
 }
 
-.wrapper {
-  margin: 6%;
-}
-
 h1, h2, h3, h4, h5, h6 {
   font-family: 'novecento_sans_widemedium';
   color: #2c3e50;
@@ -17,8 +13,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
   font-family: 'sofia_pro_lightregular';
-  letter-spacing: 0.02em;
-  color: #2C3E50;
+  letter-spacing: 0.04em;
+  color: #2c3e50;
 }
 
 ul {
@@ -322,6 +318,47 @@ a {
     width: 0;
     border: solid 15px #f4b5bd;
     border-bottom-color: transparent;
+  }
+
+  .about {
+    margin-top: 60px;
+    background-color: #85d4e3;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    padding-top: 10%;
+  }
+
+  .services {
+    margin-top: 10%;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+  }
+  .services .service {
+    margin-bottom: 40px;
+  }
+  .services .service span {
+    text-align: center;
+    display: block;
+    color: #d3dddc;
+    font-size: 100px;
+  }
+  .services .service h4 {
+    text-align: center;
+    font-family: 'sofia_pro_lightregular';
+    font-weight: normal;
+    letter-spacing: 1px;
+    margin-bottom: 0.4%;
+  }
+  .services .service p {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    color: #d3dddc;
+  }
+  .services .service:last-child {
+    padding-bottom: 100px;
   }
 
   footer {

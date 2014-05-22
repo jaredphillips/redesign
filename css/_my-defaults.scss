@@ -7,9 +7,6 @@ $yellow: #FAD77B;
 $off-black:  #2C3E50;
 $grey: #D3DDDC;
 
-.wrapper {
-	margin: 6%;
-}
 
 h1,	h2, h3, h4, h5, h6 {
 		font-family: 'novecento_sans_widemedium';
@@ -19,8 +16,8 @@ h1,	h2, h3, h4, h5, h6 {
 
 p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
 	font-family: 'sofia_pro_lightregular';
-	letter-spacing: 0.02em;
-	color: #2C3E50;
+	letter-spacing: 0.04em;
+	color: $off-black;
 }
 
 ul {
