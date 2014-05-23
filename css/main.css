@@ -466,14 +466,14 @@ a {
   div.projects div.project p.description {
     text-align: center;
     margin: -20px auto 10px auto;
-    width: 300px;
+    width: 240px;
     color: #95a5a6;
     font-size: 15px;
   }
   div.projects div.project p.tech {
     text-align: center;
     margin: 0 auto;
-    width: 300px;
+    width: 240px;
     color: #95a5a6;
     margin-bottom: 40px;
     font-size: 15px;
