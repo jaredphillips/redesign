@@ -85,6 +85,7 @@ ul {
 
 a {
   text-decoration: none;
+  margin: 0;
 }
 
 @font-face {
@@ -393,6 +394,7 @@ a {
     margin-top: 10%;
     text-align: center;
     width: 100%;
+    margin-bottom: 100px;
   }
   .services .service {
     margin-bottom: 40px;
@@ -409,12 +411,14 @@ a {
     font-weight: normal;
     letter-spacing: 1px;
     margin-bottom: 0.4%;
+    font-size: 18px;
   }
   .services .service p {
     text-align: center;
     margin: 0 auto;
-    width: 300px;
+    width: 270px;
     color: #95a5a6;
+    font-size: 15px;
   }
   .services div.last {
     margin-bottom: 50px;
@@ -433,7 +437,55 @@ a {
     color: white;
     background-color: #85d4e3;
   }
-  .services .clearing-div {
+
+  div.projects {
+    margin-top: 10%;
+    text-align: center;
+    width: 100%;
+  }
+  div.projects div.project {
+    margin-bottom: 40px;
+  }
+  div.projects div.project img.project-image {
+    border: 1px solid #d3dddc;
+  }
+  div.projects div.project h4 a {
+    text-align: center;
+    font-family: 'sofia_pro_lightregular';
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: #f4b5bd;
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+  div.projects div.project h4 a:hover {
+    color: #fad77b;
+    transition: 0.5s;
+  }
+  div.projects div.project p.description {
+    text-align: center;
+    margin: -20px auto 10px auto;
+    width: 300px;
+    color: #95a5a6;
+    font-size: 15px;
+  }
+  div.projects div.project p.tech {
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+    color: #95a5a6;
+    margin-bottom: 40px;
+    font-size: 15px;
+    border-bottom: 1px solid #fad77b;
+    padding-bottom: 20px;
+  }
+  div.projects div.project p.tech span {
+    color: #85d4e3;
+    font-size: 17px;
+  }
+
+  .contact .clearing-div {
     padding-bottom: 150px;
   }
 
