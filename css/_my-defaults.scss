@@ -6,6 +6,7 @@ $light-green: #CDC08C;
 $yellow: #FAD77B;
 $off-black:  #2C3E50;
 $grey: #D3DDDC;
+$darker-grey: #95A5A6;
 
 
 h1,	h2, h3, h4, h5, h6 {
@@ -14,7 +15,7 @@ h1,	h2, h3, h4, h5, h6 {
 		letter-spacing: 2.5px;
 }
 
-p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse {
+p, li, blockquote, label, select, input, .button, .button-big, .button-small, .button-inverse, a {
 	font-family: 'sofia_pro_lightregular';
 	letter-spacing: 0.04em;
 	color: $off-black;
