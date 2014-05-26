@@ -368,9 +368,11 @@ a {
     padding: 15px;
     color: #95a5a6;
     border-radius: 6px;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   .services .contact-button:hover {
+    -webkit-transition: 0.5s;
     transition: 0.5s;
     border: 2px solid #85d4e3;
     color: white;
@@ -396,10 +398,12 @@ a {
     font-size: 18px;
     color: #f4b5bd;
     text-decoration: underline;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   div.projects div.project h4 a:hover {
     color: #fad77b;
+    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   div.projects div.project p.description {
