@@ -6,6 +6,7 @@ body {
 }
 
 header {
+	z-index: 1;
 	width: 100%;
 	position: fixed;
 	top: 0;
@@ -173,32 +174,44 @@ div.projects {
 }
 
 
-
-
 .contacts {
-	width: 90%;
+	width: 80%;
 	margin: 0 auto;
-	span {
-		font-size: 60px;
-		position: relative;
-		top: 0;
-		left: 7px;
-	}
-	.contact-card {
-		width: 70%;
-		float: right;
-		h4 {
-			color: $grey;
-		}
-		p {
+	padding: 25px 15px 25px 15px;
+	.contact {
+		background-color: $darker-grey;
+		margin-bottom: 5px;
+		border-radius: 5px;
+		span {
+			z-index: 0;
+			font-size: 60px;
+			font-weight: light;	
 			position: relative;
-			top: -18px;
-			left: 0;
-			color: $grey;
-			text-align: left;
+			top: 16px;
+			left: 10px;
+			color: white;
+		}
+		.contact-card {
+			width: 70%;
+			float: right;
+			h4 {
+				position: relative;
+				top: 0;
+				left: -10px;
+				color: $yellow;
+			}
+			p {
+				position: relative;
+				top: -20px;
+				left: -10px;
+				color: white;
+				text-align: left;
+				text-decoration: underline;
+			}
 		}
 	}
 }
+
 
 .clearing-fix {
 	background-color:white;

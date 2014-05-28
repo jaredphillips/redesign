@@ -286,6 +286,7 @@ a {
   }
 
   header {
+    z-index: 1;
     width: 100%;
     position: fixed;
     top: 0;
@@ -447,28 +448,41 @@ a {
   }
 
   .contacts {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
+    padding: 25px 15px 25px 15px;
   }
-  .contacts span {
+  .contacts .contact {
+    background-color: #95a5a6;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .contacts .contact span {
+    z-index: 0;
     font-size: 60px;
+    font-weight: light;
     position: relative;
-    top: 0;
-    left: 7px;
+    top: 16px;
+    left: 10px;
+    color: white;
   }
-  .contacts .contact-card {
+  .contacts .contact .contact-card {
     width: 70%;
     float: right;
   }
-  .contacts .contact-card h4 {
-    color: #d3dddc;
-  }
-  .contacts .contact-card p {
+  .contacts .contact .contact-card h4 {
     position: relative;
-    top: -18px;
-    left: 0;
-    color: #d3dddc;
+    top: 0;
+    left: -10px;
+    color: #fad77b;
+  }
+  .contacts .contact .contact-card p {
+    position: relative;
+    top: -20px;
+    left: -10px;
+    color: white;
     text-align: left;
+    text-decoration: underline;
   }
 
   .clearing-fix {
