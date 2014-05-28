@@ -8,6 +8,14 @@ $off-black:  #2C3E50;
 $grey: #D3DDDC;
 $darker-grey: #95A5A6;
 
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
 
 h1,	h2, h3, h4, h5, h6 {
 		font-family: 'novecento_sans_widemedium';

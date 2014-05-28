@@ -5,6 +5,15 @@
   padding: 0.2em 0;
 }
 
+.clearfix:after {
+  content: " ";
+  /* Older browser do not support empty content */
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'novecento_sans_widemedium';
   color: #2c3e50;
@@ -368,11 +377,9 @@ a {
     padding: 15px;
     color: #95a5a6;
     border-radius: 6px;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   .services .contact-button:hover {
-    -webkit-transition: 0.5s;
     transition: 0.5s;
     border: 2px solid #85d4e3;
     color: white;
@@ -385,7 +392,7 @@ a {
     width: 100%;
   }
   div.projects div.project {
-    margin-bottom: 40px;
+    margin-bottom: 90px;
   }
   div.projects div.project img.project-image {
     border: 1px solid #d3dddc;
@@ -398,12 +405,10 @@ a {
     font-size: 18px;
     color: #f4b5bd;
     text-decoration: underline;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   div.projects div.project h4 a:hover {
     color: #fad77b;
-    -webkit-transition: 0.5s;
     transition: 0.5s;
   }
   div.projects div.project p.description {
@@ -420,16 +425,55 @@ a {
     color: #95a5a6;
     margin-bottom: 40px;
     font-size: 15px;
-    border-bottom: 1px solid #fad77b;
-    padding-bottom: 20px;
+    padding-bottom: -10px;
   }
   div.projects div.project p.tech span {
     color: #85d4e3;
     font-size: 17px;
   }
+  div.projects div.project a.contact-button {
+    margin-top: 100px;
+    border: 2px solid #95a5a6;
+    padding: 15px;
+    color: #95a5a6;
+    border-radius: 6px;
+    transition: 0.5s;
+  }
+  div.projects div.project a.contact-button:hover {
+    transition: 0.5s;
+    border: 2px solid #fad77b;
+    color: white;
+    background-color: #fad77b;
+  }
 
-  .contact .clearing-div {
-    padding-bottom: 150px;
+  .contacts {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contacts span {
+    font-size: 60px;
+    position: relative;
+    top: 0;
+    left: 7px;
+  }
+  .contacts .contact-card {
+    width: 70%;
+    float: right;
+  }
+  .contacts .contact-card h4 {
+    color: #d3dddc;
+  }
+  .contacts .contact-card p {
+    position: relative;
+    top: -18px;
+    left: 0;
+    color: #d3dddc;
+    text-align: left;
+  }
+
+  .clearing-fix {
+    background-color: white;
+    height: 50px;
   }
 
   footer {

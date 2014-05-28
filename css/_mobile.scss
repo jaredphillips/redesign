@@ -115,7 +115,7 @@ div.projects {
 	h3 {
 	}
 	div.project {
-		margin-bottom: 40px;
+		margin-bottom: 90px;
 		img.project-image {
 			border: 1px solid $grey;
 		}
@@ -149,33 +149,62 @@ div.projects {
 			color: $darker-grey;
 			margin-bottom: 40px;
 			font-size: 15px;
-			border-bottom: 1px solid $yellow;
-			padding-bottom: 20px;
+			padding-bottom: -10px;
 			span {
 				color: $blue;
 				font-size: 17px;
 			}
 		}
-	}
-}
-
-
-.contact {
-	ul {
-		li {
-			h3 {
-			}
-			span {
-				a {
-
-				}
-			}
+		a.contact-button {
+			margin-top: 100px;
+			border: 2px solid $darker-grey;
+			padding: 15px;
+			color: $darker-grey;
+			border-radius: 6px;
+			transition: 0.5s;
+		}
+		a.contact-button:hover {
+			transition: 0.5s;
+			border: 2px solid $yellow;
+			color: white;
+			background-color: $yellow;
 		}
 	}
-	.clearing-div {
-		padding-bottom: 150px;
+}
+
+
+
+
+.contacts {
+	width: 90%;
+	margin: 0 auto;
+	span {
+		font-size: 60px;
+		position: relative;
+		top: 0;
+		left: 7px;
+	}
+	.contact-card {
+		width: 70%;
+		float: right;
+		h4 {
+			color: $grey;
+		}
+		p {
+			position: relative;
+			top: -18px;
+			left: 0;
+			color: $grey;
+			text-align: left;
+		}
 	}
 }
+
+.clearing-fix {
+	background-color:white;
+	height: 50px;
+}
+
 
 footer {
 	position: fixed;
