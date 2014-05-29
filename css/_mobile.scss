@@ -259,6 +259,21 @@ footer {
 		}
 	}
 }
+.intro {
+	margin-top: 10px;
+  span.icon-pencil {
+  	font-size: 30px;
+  	margin-left: -100px;
+  }
+  h2 {
+		display: inline-block;
+  }
+  p.blog-intro {
+  	margin-top: -14px;
+		padding-bottom: 40px;
+		border-bottom: 1px solid $pink;
+  }
+}
 
 
 section {
@@ -273,13 +288,15 @@ section {
 		font-size: 70px;
 	}
 	div.entry {
+		border-bottom: 1px solid $grey;
+		border-top: 1px solid $grey
 		h3 {
-			font-family: 'sofia_pro_lightregular';
+			font-family: 'novecento_sans_widemedium';
 			padding-top: 10px;	
 		}
 		p.date {
-			margin-top: -22px;
-			border-bottom: 2px solid $blue;
+			text-align: right;
+			margin-top: -10px;
 			padding-bottom: 10px;
 		}
 		p.article {

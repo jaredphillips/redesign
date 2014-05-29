@@ -21,9 +21,9 @@
           <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
     <header>
-      <div class="ribbon" data-anijs="if: load, on: window, do: swing, after: removeAnim"></div>
+      <div class="ribbon" data-anijs="if: load, on: window, do: swing animated"></div>
 
-      <h1 data-anijs="if: load, on: window, do: bounceInDown">JARED PHILLIPS</h1>
+      <h1 data-anijs="if: load, on: window, do: bounceInDown animated">JARED PHILLIPS</h1>
       <ul>
         <li><a href="#">Work</a></li>
         <li><a href="#">Services</a></li>
@@ -32,13 +32,21 @@
       </ul>
     </header>
       <div class="about">
-        <h2 data-anijs="if: click, do: hinge">WEB DESIGNER & DEVELOPER*</h2>
+        <h2 data-anijs="if: click, do: wobble animated">WEB DESIGNER & DEVELOPER*</h2>
         <p>*FULL STACK WEB DEVELOPER</p>
       </div>
 
+
       <section id="blog">
-        <h2>Blog</h2>
-        <span data-anijs="if: load, on: window, do: bounceInRight" class="icon-pencil"></span>
+        
+        <div class="intro">
+          <span class="icon-pencil"></span>
+          <h2>Blog</h2>
+          <p class="blog-intro">
+            Here be blog! I will try to keep it fresh, current and topical to things that I've struggled with in the past. Maybe it will help a few of you. 
+          </p>
+        </div>
+        
 
         <div class="entry">
           <h3>How to create a style guide</h3>
@@ -104,8 +112,10 @@
           <h3>Intro to Fancybox</h3>
           <p class="date">Date: May 1st, 2014</p>
           <p class="article">Shortstack of griddlecakes, maple syrup, lightly heated and a slice of ham. Nothing beats the taste of maple syrup when it collides with ham. Audrey, there's something you'd like to tell me... Glastonbury! The legendary burial place of King Arthur. Harry, given their mutual connection to the Blue Book Project, I'm afraid Earle may have targeted the Major.</p>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jaredphillips.io/blog.html" data-text="Intro to Fancybox" data-via="ruby_make_happy" data-dnt="true">Tweet</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <p class="article"
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jaredphillips.io/blog.html" data-text="Intro to Fancybox" data-via="ruby_make_happy" data-dnt="true">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </p>
         </div>
 
         <div class="entry">
@@ -133,8 +143,8 @@
           <p class="date">Date: May 1st, 2014</p>
           <p class="article">Shortstack of griddlecakes, maple syrup, lightly heated and a slice of ham. Nothing beats the taste of maple syrup when it collides with ham. Audrey, there's something you'd like to tell me... Glastonbury! The legendary burial place of King Arthur. Harry, given their mutual connection to the Blue Book Project, I'm afraid Earle may have targeted the Major.</p>
           <p class="article">
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jaredphillips.io/blog.html" data-text="Started with Git & Github" data-via="ruby_make_happy" data-dnt="true">Tweet</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jaredphillips.io/blog.html" data-text="Started with Git & Github" data-via="ruby_make_happy" data-dnt="true">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
           </p>
         </div>
 
@@ -162,8 +172,10 @@
           <h3>Imposter Symdrome</h3>
           <p class="date">Date: May 1st, 2014</p>
           <p class="article">Shortstack of griddlecakes, maple syrup, lightly heated and a slice of ham. Nothing beats the taste of maple syrup when it collides with ham. Audrey, there's something you'd like to tell me... Glastonbury! The legendary burial place of King Arthur. Harry, given their mutual connection to the Blue Book Project, I'm afraid Earle may have targeted the Major.</p>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jaredphillips.io/blog.html" data-text="Imposter Symdrome" data-via="ruby_make_happy" data-dnt="true">Tweet</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          <p class="article last">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jaredphillips.io/blog.html" data-text="Imposter Symdrome" data-via="ruby_make_happy" data-dnt="true">Tweet</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+          </p>
         </div>
 
         <div class="clearing-fix"></div>
