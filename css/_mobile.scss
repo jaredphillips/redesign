@@ -179,34 +179,43 @@ div.projects {
 	margin: 0 auto;
 	padding: 25px 15px 25px 15px;
 	.contact {
-		background-color: $darker-grey;
+		border-bottom: 1px solid $grey;
 		margin-bottom: 5px;
 		border-radius: 5px;
+		h2 {
+			margin: 0 auto;
+		}
 		span {
 			z-index: 0;
-			font-size: 60px;
+			font-size: 30px;
 			font-weight: light;	
 			position: relative;
 			top: 16px;
-			left: 10px;
-			color: white;
+			left: -3px;
+			color: $pink;
 		}
 		.contact-card {
 			width: 70%;
 			float: right;
 			h4 {
+				font-size: 20px;
+				font-family: 'sofia_pro_lightregular';
 				position: relative;
 				top: 0;
 				left: -10px;
-				color: $yellow;
+				color: $darker-grey;
 			}
 			p {
 				position: relative;
+				font-size: 16px;
 				top: -20px;
 				left: -10px;
-				color: white;
+				color: $darker-grey;
 				text-align: left;
 				text-decoration: underline;
+			}
+			a:hover {
+				color: $blue;
 			}
 		}
 	}
@@ -215,7 +224,7 @@ div.projects {
 
 .clearing-fix {
 	background-color:white;
-	height: 50px;
+	height: 60px;
 }
 
 
@@ -250,4 +259,40 @@ footer {
 		}
 	}
 }
+
+
+section {
+	margin-left: 4%;
+	margin-right: 4%;
+	h2 {
+	}
+	span {
+		position: relative;
+		top: 0;
+		left: 200px;
+		font-size: 70px;
+	}
+	div.entry {
+		h3 {
+			font-family: 'sofia_pro_lightregular';
+			padding-top: 10px;	
+		}
+		p.date {
+			margin-top: -22px;
+			border-bottom: 2px solid $blue;
+			padding-bottom: 10px;
+		}
+		p.article {
+			display:none;
+		}
+		p.show {
+			display: block;
+		}
+	}
+}
+
+
+
+
+
 } // Ends

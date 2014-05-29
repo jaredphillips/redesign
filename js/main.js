@@ -3,3 +3,9 @@ $('.footer-link').click(function() {
   return $(this).addClass("active");
 });
 
+$('.entry').click(function() {
+	$('p.article').removeClass("show");
+	return $('p.article', this).addClass("show");
+});
+
+// Git

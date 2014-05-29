@@ -453,41 +453,50 @@ a {
     padding: 25px 15px 25px 15px;
   }
   .contacts .contact {
-    background-color: #95a5a6;
+    border-bottom: 1px solid #d3dddc;
     margin-bottom: 5px;
     border-radius: 5px;
   }
+  .contacts .contact h2 {
+    margin: 0 auto;
+  }
   .contacts .contact span {
     z-index: 0;
-    font-size: 60px;
+    font-size: 30px;
     font-weight: light;
     position: relative;
     top: 16px;
-    left: 10px;
-    color: white;
+    left: -3px;
+    color: #f4b5bd;
   }
   .contacts .contact .contact-card {
     width: 70%;
     float: right;
   }
   .contacts .contact .contact-card h4 {
+    font-size: 20px;
+    font-family: 'sofia_pro_lightregular';
     position: relative;
     top: 0;
     left: -10px;
-    color: #fad77b;
+    color: #95a5a6;
   }
   .contacts .contact .contact-card p {
     position: relative;
+    font-size: 16px;
     top: -20px;
     left: -10px;
-    color: white;
+    color: #95a5a6;
     text-align: left;
     text-decoration: underline;
+  }
+  .contacts .contact .contact-card a:hover {
+    color: #85d4e3;
   }
 
   .clearing-fix {
     background-color: white;
-    height: 50px;
+    height: 60px;
   }
 
   footer {
@@ -520,5 +529,31 @@ a {
   }
   footer ul li .active {
     color: #2c3e50;
+  }
+
+  section {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+  section span {
+    position: relative;
+    top: 0;
+    left: 200px;
+    font-size: 70px;
+  }
+  section div.entry h3 {
+    font-family: 'sofia_pro_lightregular';
+    padding-top: 10px;
+  }
+  section div.entry p.date {
+    margin-top: -22px;
+    border-bottom: 2px solid #85d4e3;
+    padding-bottom: 10px;
+  }
+  section div.entry p.article {
+    display: none;
+  }
+  section div.entry p.show {
+    display: block;
   }
 }
