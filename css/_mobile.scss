@@ -259,22 +259,16 @@ footer {
 		}
 	}
 }
-.intro {
-	margin-top: 10px;
-  span.icon-pencil {
-  	font-size: 30px;
-  	margin-left: -100px;
-  }
-  h2 {
-		display: inline-block;
-  }
-  p.blog-intro {
-  	margin-top: -14px;
-		padding-bottom: 40px;
-		border-bottom: 1px solid $pink;
-  }
-}
 
+// Blog page
+
+span.icon-pencil {
+	font-size: 40px;
+	display: inline-block;
+	h2 {
+		display: inline-block;
+	}
+}
 
 section {
 	margin-left: 4%;
