@@ -158,11 +158,12 @@ div.projects {
 		}
 		a.contact-button {
 			margin-top: 100px;
-			border: 2px solid $darker-grey;
+			// border: 2px solid $darker-grey;
 			padding: 15px;
-			color: $darker-grey;
+			color: white;
 			border-radius: 6px;
 			transition: 0.5s;
+			background-color: $yellow;
 		}
 		a.contact-button:hover {
 			transition: 0.5s;
@@ -224,7 +225,7 @@ div.projects {
 
 .clearing-fix {
 	background-color:white;
-	height: 60px;
+	height: 80px;
 }
 
 
@@ -262,13 +263,6 @@ footer {
 
 // Blog page
 
-span.icon-pencil {
-	font-size: 40px;
-	display: inline-block;
-	h2 {
-		display: inline-block;
-	}
-}
 
 section {
 	margin-left: 4%;
@@ -286,18 +280,27 @@ section {
 		border-top: 1px solid $grey
 		h3 {
 			font-family: 'novecento_sans_widemedium';
-			padding-top: 10px;	
+			padding-top: 10px;
 		}
 		p.date {
-			text-align: right;
 			margin-top: -10px;
-			padding-bottom: 10px;
+			text-align: left;
+			display: inline-block;
+			padding: 5px;
 		}
 		p.article {
 			display:none;
 		}
-		p.show {
-			display: block;
+		p.toggle-button {
+			display: inline-block;
+			margin-top: -10px;
+			float: right;
+			text-align: right;
+			margin-right: 4%;
+			font-size: 12px;
+			padding: 9px;
+			border: 1px solid $pink;
+			border-radius: 5px;
 		}
 	}
 }

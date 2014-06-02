@@ -4,8 +4,11 @@
 	  return $(this).addClass("active");
 	});
 
-	$('.entry').click(function() {
-		$('p.article').removeClass("show");
-		return $('p.article', this).addClass("show");
+	$("p.toggle-button").click(function() {
+		var text = $(this).parent().children(".article").is(':visible') ? 'Read' : 'Close';
+		$(this).parent().children("p.toggle-button").text(text);
+    $(this).parent().children(".article").slideToggle();
 	});
+
+
 }).call(this);
