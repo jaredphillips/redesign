@@ -1,0 +1,104 @@
+// Targeting full-size devices
+@media (min-width: 1279px) {
+
+// Header beginning
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+ 	.ribbon {
+ 		z-index: 2;
+		display: inline-block;
+    background: $pink;
+    height: 90px;
+    width: 60px;
+    position: relative;
+    top: -10px;
+		left: 2%;
+    border: 0;
+    margin-right: 30px;
+	}
+	.ribbon:after {
+		display: inline-block;
+    content: "";
+    position: absolute;
+    bottom: -60px;
+    border: 30px solid $pink;
+    border-bottom-color: transparent;
+	}
+  h1 {
+  	display: inline-block;
+  	font-size: 2.5em;
+  	position: relative;
+		top: -27px;
+		left: 36px;
+  }
+  ul {
+  	position: relative;
+  	top: -130px;
+  	right: -945px;
+    li {
+    	padding-bottom: 60px;
+    	margin: 20px;
+			display: inline-block;
+			.header-link {
+				color: $grey;
+				letter-spacing: 1px;
+				font-size: 12px;
+			}
+			.header-link:hover {
+				color: $darker-grey;
+			}
+			span {
+				display: block;
+				font-size: 27px;
+				text-align: center;
+			}
+			.active {
+				color: $off-black;
+			}
+    }
+  }
+}
+
+// Header end
+
+// About beginning 
+
+div.about {
+	// position: relative;
+	// top: -50px;
+	height: 400px;
+	background-color: $blue;
+	text-align: center;
+	h2 {
+		padding-top: 150px;
+		font-size: 4em;
+	}
+  p {
+  	font-size: 1.5em;
+  }
+}
+
+// About Ending
+
+div.services {
+  h3 {
+  }
+  div.service {
+    span {}
+    h4 {}
+    p {}
+  }
+  .service .last {}
+  a {}
+}
+
+} // End
+
+// Targeting full-size devices

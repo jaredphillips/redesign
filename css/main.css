@@ -4158,7 +4158,7 @@ a {
     width: 100%;
   }
   div.projects div.project {
-    margin-bottom: 90px;
+    margin-bottom: 15%;
   }
   div.projects div.project img.project-image {
     border: 1px solid #d3dddc;
@@ -4276,15 +4276,16 @@ a {
     border-top-font-family: 'novecento_sans_widemedium';
     border-top-padding-top: 10px;
   }
-  section div.entry p.date {
+  section div.entry .date {
     margin-top: -10px;
     text-align: left;
     display: inline-block;
   }
-  section div.entry p.article {
+  section div.entry .article {
     display: none;
+    margin-bottom: 50px;
   }
-  section div.entry p.toggle-button {
+  section div.entry .toggle-button {
     color: #2c3e50;
     display: inline-block;
     margin-top: -10px;
@@ -4325,5 +4326,82 @@ a {
   }
   footer ul li .active {
     color: #2c3e50;
+  }
+}
+@media (min-width: 1279px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+  }
+  header .ribbon {
+    z-index: 2;
+    display: inline-block;
+    background: #f4b5bd;
+    height: 90px;
+    width: 60px;
+    position: relative;
+    top: -10px;
+    left: 2%;
+    border: 0;
+    margin-right: 30px;
+  }
+  header .ribbon:after {
+    display: inline-block;
+    content: "";
+    position: absolute;
+    bottom: -60px;
+    border: 30px solid #f4b5bd;
+    border-bottom-color: transparent;
+  }
+  header h1 {
+    display: inline-block;
+    font-size: 2.5em;
+    position: relative;
+    top: -27px;
+    left: 36px;
+  }
+  header ul {
+    position: relative;
+    top: -130px;
+    right: -945px;
+  }
+  header ul li {
+    padding-bottom: 60px;
+    margin: 20px;
+    display: inline-block;
+  }
+  header ul li .header-link {
+    color: #d3dddc;
+    letter-spacing: 1px;
+    font-size: 12px;
+  }
+  header ul li .header-link:hover {
+    color: #95a5a6;
+  }
+  header ul li span {
+    display: block;
+    font-size: 27px;
+    text-align: center;
+  }
+  header ul li .active {
+    color: #2c3e50;
+  }
+
+  div.about {
+    height: 400px;
+    background-color: #85d4e3;
+    text-align: center;
+  }
+  div.about h2 {
+    padding-top: 150px;
+    font-size: 4em;
+  }
+  div.about p {
+    font-size: 1.5em;
   }
 }
