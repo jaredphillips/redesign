@@ -4137,7 +4137,7 @@ a {
   .services div.last {
     margin-bottom: 50px;
   }
-  .services .contact-button {
+  .services .button {
     margin-top: 100px;
     border: 2px solid #95a5a6;
     padding: 15px;
@@ -4145,7 +4145,7 @@ a {
     border-radius: 6px;
     transition: 0.5s;
   }
-  .services .contact-button:hover {
+  .services .button:hover {
     transition: 0.5s;
     border: 2px solid #85d4e3;
     color: white;
@@ -4197,7 +4197,7 @@ a {
     color: #85d4e3;
     font-size: 17px;
   }
-  div.projects div.project a.contact-button {
+  div.projects div.project a.button {
     margin-top: 100px;
     padding: 15px;
     color: white;
@@ -4205,7 +4205,7 @@ a {
     transition: 0.5s;
     background-color: #fad77b;
   }
-  div.projects div.project a.contact-button:hover {
+  div.projects div.project a.button:hover {
     transition: 0.5s;
     border: 2px solid #fad77b;
     color: white;
@@ -4417,7 +4417,7 @@ a {
   }
   div.services h3 {
     font-size: 2.7em;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
   div.services div.first-row {
     box-sizing: border-box;
@@ -4431,12 +4431,16 @@ a {
   }
   div.services div.first-row span {
     font-size: 6em;
+    color: #95a5a6;
   }
-  div.services div.first-row:hover {
-    background-color: #f4b5bd;
+  div.services div.first-row h4 {
+    font-size: 1.4em;
+  }
+  div.services div.first-row p {
+    font-size: 1em;
   }
   div.services div.second-row {
-    margin: 30px 30px;
+    margin: 30px 0px;
     border-radius: 5px;
     width: 28%;
     height: 300px;
@@ -4446,12 +4450,26 @@ a {
     transition: 1.5s;
   }
   div.services div.second-row span {
+    color: #95a5a6;
     font-size: 6em;
   }
-  div.services div.second-row:hover {
-    background-color: #85d4e3;
+  div.services div.second-row h4 {
+    font-size: 1.4em;
   }
-  div.services a {
-    display: block;
+  div.services div.second-row p {
+    font-size: 1em;
+  }
+  div.services a.button {
+    background-color: white;
+    display: inline-block;
+    padding: 30px 60px;
+    border: 2px solid #d3dddc;
+    border-radius: 8px;
+    transition: .5s;
+  }
+  div.services a.button:hover {
+    transition: .5s;
+    background-color: #85d4e3;
+    color: white;
   }
 }

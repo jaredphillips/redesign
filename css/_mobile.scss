@@ -94,7 +94,7 @@ header {
 	div.last {
 		margin-bottom: 50px;
 	}
-	.contact-button {
+	.button {
 		margin-top: 100px;
 		border: 2px solid $darker-grey;
 		padding: 15px;
@@ -102,7 +102,7 @@ header {
 		border-radius: 6px;
 		transition: 0.5s;
 	}
-	.contact-button:hover {
+	.button:hover {
 		transition: 0.5s;
 		border: 2px solid $blue;
 		color: white;
@@ -157,7 +157,7 @@ div.projects {
 				font-size: 17px;
 			}
 		}
-		a.contact-button {
+		a.button {
 			margin-top: 100px;
 			// border: 2px solid $darker-grey;
 			padding: 15px;
@@ -166,7 +166,7 @@ div.projects {
 			transition: 0.5s;
 			background-color: $yellow;
 		}
-		a.contact-button:hover {
+		a.button:hover {
 			transition: 0.5s;
 			border: 2px solid $yellow;
 			color: white;

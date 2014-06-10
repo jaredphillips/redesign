@@ -98,7 +98,7 @@ div.services {
 	text-align: center;
   h3 {
   	font-size: 2.7em;
-  	margin-bottom: 80px;
+  	margin-bottom: 40px;
   }
   div.first-row {
   	box-sizing: border-box;
@@ -111,15 +111,17 @@ div.services {
   	transition: 1.5s;
     span {
     	font-size: 6em;
+    	color: $darker-grey;
     }
-    h4 {}
-    p {}
-  }
-  div.first-row:hover {
-  	background-color: $pink;
+    h4 {
+    	font-size: 1.4em;
+    }
+    p {
+    	font-size: 1em;
+    }
   }
   div.second-row {
-  	margin: 30px 30px;
+  	margin: 30px 0px;
   	// box-sizing: border-box;
   	border-radius: 5px;
   	width: 28%;
@@ -129,17 +131,28 @@ div.services {
   	padding: 2% 2%;
   	transition: 1.5s;
     span {
+    	color: $darker-grey;
     	font-size: 6em;
     }
-    h4 {}
-    p {}
+    h4 {
+    	font-size: 1.4em;
+    }
+    p {
+    	font-size: 1em;
+    }
   }
-  div.second-row:hover {
+  a.button {
+  	background-color: white;
+  	display: inline-block;
+  	padding: 30px 60px;
+  	border: 2px solid $grey;
+  	border-radius: 8px;
+  	transition: .5s;
+  }
+  a.button:hover {
+  	transition: .5s;
   	background-color: $blue;
-  }
-  .service .last {}
-  a {
-  	display: block;
+  	color: white;
   }
 }
 
