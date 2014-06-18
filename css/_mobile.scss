@@ -6,6 +6,13 @@ body {
 	background-color: white;
 }
 
+.clearing-fix {
+	background-color:white;
+	height: 80px;
+}
+
+// Header start
+
 header {
 	z-index: 1;
 	width: 100%;
@@ -50,6 +57,10 @@ header {
     border-bottom-color: transparent;
 	}
 }
+
+// Header finished
+
+// About start
 
 .about {
 	margin-top: 60px;
@@ -109,6 +120,10 @@ header {
 		background-color: $blue;
 	}
 }
+
+// About finished
+
+// Projects start
 
 div.projects {
 	margin-top: 10%;
@@ -175,6 +190,9 @@ div.projects {
 	}
 }
 
+//  Projects finished
+
+// Contact start
 
 div.contacts {
 	margin: 0 4%;
@@ -216,13 +234,9 @@ div.contacts {
 	}
 }
 
+// Contact finish
 
-.clearing-fix {
-	background-color:white;
-	height: 80px;
-}
-
-// Blog page
+// Blog start
 
 section {
 	margin-left: 4%;
@@ -265,6 +279,10 @@ section {
 	}
 }
 
+// Blog finish
+
+// Footer start
+
 footer {
 	position: fixed;
 	bottom: 0;
@@ -272,7 +290,7 @@ footer {
 	background: white;
 	width: 100%;
 	border-top: 1px solid $grey;
-	ul {
+	ul.mobile-footer {
 		width: 100%;
 		margin: 0 auto;
 		padding: 2% 0 2% 0;
@@ -297,4 +315,5 @@ footer {
 	}
 }
 
+// Footer finish
 } // End of iphone size styles

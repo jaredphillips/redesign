@@ -4050,6 +4050,11 @@ a {
     background-color: white;
   }
 
+  .clearing-fix {
+    background-color: white;
+    height: 80px;
+  }
+
   header {
     z-index: 1;
     width: 100%;
@@ -4252,11 +4257,6 @@ a {
     border-bottom: 1px solid #d3dddc;
   }
 
-  .clearing-fix {
-    background-color: white;
-    height: 80px;
-  }
-
   section {
     margin-left: 4%;
     margin-right: 4%;
@@ -4304,27 +4304,27 @@ a {
     width: 100%;
     border-top: 1px solid #d3dddc;
   }
-  footer ul {
+  footer ul.mobile-footer {
     width: 100%;
     margin: 0 auto;
     padding: 2% 0 2% 0;
   }
-  footer ul li {
+  footer ul.mobile-footer li {
     display: inline-block;
     width: 24%;
     text-align: center;
   }
-  footer ul li .footer-link {
+  footer ul.mobile-footer li .footer-link {
     color: #d3dddc;
     letter-spacing: 1px;
     font-size: 12px;
   }
-  footer ul li span {
+  footer ul.mobile-footer li span {
     display: block;
     font-size: 25px;
     text-align: center;
   }
-  footer ul li .active {
+  footer ul.mobile-footer li .active {
     color: #2c3e50;
   }
 }
@@ -4462,7 +4462,7 @@ a {
   div.services a.button {
     background-color: white;
     display: inline-block;
-    padding: 50px 60px;
+    padding: 30px 40px;
     border: 2px solid #d3dddc;
     border-radius: 8px;
     transition: .5s;
