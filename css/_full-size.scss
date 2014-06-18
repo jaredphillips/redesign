@@ -75,8 +75,6 @@ header {
 // About beginning 
 
 div.about {
-	// position: relative;
-	// top: -50px;
 	height: 400px;
 	background-color: $blue;
 	text-align: center;
@@ -144,7 +142,7 @@ div.services {
   a.button {
   	background-color: white;
   	display: inline-block;
-  	padding: 30px 60px;
+  	padding: 50px 60px;
   	border: 2px solid $grey;
   	border-radius: 8px;
   	transition: .5s;
@@ -155,6 +153,72 @@ div.services {
   	color: white;
   }
 }
+
+div.projects {
+	margin: 90px auto;
+	width: 50%;
+	border-top: 1px solid $grey;
+	h3 {
+		font-size: 2.7em;
+  	margin-bottom: 40px;
+  	text-align: center;
+	}
+	div.project {
+		img.project-image {
+			width: 100%;
+			height: 500px;
+			margin: 0 auto;
+			text-align: center;
+		}
+		h4 {
+			text-align: center;
+			a {
+				margin: 0 auto 40px auto; 
+				font-size: 2.1em;
+				text-decoration: underline;
+				font-family: 'novecento_sans_widemedium';
+				color: $off-black;
+				letter-spacing: 2.5px;
+				transition: .5s;
+			}
+		}
+		a:hover {
+			color: $light-green;
+		}
+		p.description {
+			text-align: center;
+			width: 80%;
+			margin: 30px auto;
+		}
+		p.tech {
+			width: 80%;
+			margin: 0 auto;
+			span {
+				font-size: 1.6em;
+				color: $blue;
+			}
+		}
+		a.button {
+			margin: 50px auto;
+			height: 30px;
+			width: 100px;
+			text-align: center;
+			// vertical-align: middle;
+			display: block;
+	  	background-color: $yellow;
+	  	color: white;
+		  padding: 20px;
+	  	border-radius: 3px;
+	  	transition: .5s;
+	  }
+	  a.button:hover {
+	  	transition: .5s;
+	  	background-color: $blue;
+	  	color: white;
+	  }
+	}
+}
+
 
 } // End
 
