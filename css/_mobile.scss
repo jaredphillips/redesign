@@ -71,6 +71,7 @@ header {
 	padding-top: 10%;
 }
 
+// Services start
 .services {
 	margin-top: 10%;
 	text-align: center;
@@ -102,24 +103,17 @@ header {
 			font-size: 15px;
 		}
 	}
-	div.last {
-		margin-bottom: 50px;
-	}
-	.button {
-		margin-top: 100px;
+}
+
+a.button {
+		// margin-top: 100px;
 		border: 2px solid $darker-grey;
 		padding: 15px;
 		color: $darker-grey;
 		border-radius: 6px;
 		transition: 0.5s;
-	}
-	.button:hover {
-		transition: 0.5s;
-		border: 2px solid $blue;
-		color: white;
-		background-color: $blue;
-	}
-}
+}	
+
 
 // About finished
 
@@ -172,21 +166,23 @@ div.projects {
 				font-size: 17px;
 			}
 		}
-		a.button {
-			margin-top: 100px;
-			// border: 2px solid $darker-grey;
-			padding: 15px;
-			color: white;
-			border-radius: 6px;
-			transition: 0.5s;
-			background-color: $yellow;
-		}
-		a.button:hover {
-			transition: 0.5s;
-			border: 2px solid $yellow;
-			color: white;
-			background-color: $yellow;
-		}
+	}
+}
+
+div.button-holder {
+	a.button {
+		margin-top: 100px;
+		padding: 15px;
+		color: white;
+		border-radius: 6px;
+		transition: 0.5s;
+		background-color: $yellow;
+	}
+	a.button:hover {
+		transition: 0.5s;
+		border: 2px solid $yellow;
+		color: white;
+		background-color: $yellow;
 	}
 }
 
@@ -263,7 +259,7 @@ section {
 			display: inline-block;
 		}
 		.article {
-			display:none;
+			display: none;
 			margin-bottom: 50px;
 		}
 		.toggle-button {
@@ -281,6 +277,11 @@ section {
 
 // Blog finish
 
+div.button-holder {
+	display: none;
+}
+
+
 // Footer start
 
 footer {
@@ -290,6 +291,9 @@ footer {
 	background: white;
 	width: 100%;
 	border-top: 1px solid $grey;
+	p {
+		display: none;
+	}
 	ul.mobile-footer {
 		width: 100%;
 		margin: 0 auto;

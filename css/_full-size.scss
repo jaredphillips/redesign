@@ -122,7 +122,6 @@ div.services {
   }
   div.second-row {
   	margin: 30px 0px;
-  	// box-sizing: border-box;
   	border-radius: 5px;
   	width: 28%;
   	height: 300px;
@@ -141,20 +140,27 @@ div.services {
     	font-size: 1em;
     }
   }
-  a.button {
-  	background-color: white;
-  	display: inline-block;
-  	padding: 30px 40px;
-  	border: 2px solid $grey;
-  	border-radius: 8px;
-  	transition: .5s;
-  }
-  a.button:hover {
-  	transition: .5s;
-  	background-color: $blue;
-  	color: white;
-  }
 }
+
+a.button {
+	text-align: center;
+	margin: 0 auto;
+	box-sizing: border-box;
+	background-color: white;
+	display: block;
+	width: 250px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border: 2px solid $grey;
+	border-radius: 8px;
+	transition: .5s;
+}
+a.button:hover {
+	transition: .5s;
+	background-color: $blue;
+	color: white;
+}
+
 
 // Services Finish
 
@@ -227,20 +233,71 @@ div.projects {
 
 // Projects finish
 
-section#blog {
-	h2 {}
-	p {}
+// Blog start
+
+section {
+	margin: 140px 10% 30px 10%;
+	h2 {
+		font-size: 3.9em;
+	}
+	.blog-intro {
+		font-size: 1.4em;
+		margin-bottom: 50px;
+		padding-bottom: 50px;
+		border-bottom: 1px solid $yellow;
+	}
+	span {
+		font-size: 1em;
+		color: $darker-grey;
+	}
 	div.entry {
-		h3 {}
-		p.date {}
-		p.toggle-button {}
-		div.article {
-			p {}
-			a.twitter-share-button {}
+		border-bottom: 1px solid $grey;
+		border-top: 1px solid $grey;
+		h3 {
+			font-family: 'novecento_sans_widemedium';
+			padding-top: 10px;
+		}
+		.date {
+			margin-top: -10px;
+			text-align: left;
+			display: inline-block;
+		}
+		.article {
+			display: none;
+			margin-bottom: 50px;
+		}
+		.toggle-button {
+			color: white;
+			display: inline-block;
+			margin-top: -10px;
+			float: right;
+			position: relative;
+			top: -10px;
+			text-align: right;
+			margin-right: 4%;
+			font-size: 16px;
+			padding: 10px 20px;
+			border-radius: 5px;
+			background-color: $grey;
 		}
 	}
 }
- 
+// Blog finish
+
+// Footer Start
+footer {
+	height: 50px;
+	background-color: white;
+	p {
+		color: $off-black;
+		font-size: 10em;
+	}
+	ul.mobile-footer {
+		display: none;
+	}
+
+}
+// Footer Finish
 
 } // End
 
