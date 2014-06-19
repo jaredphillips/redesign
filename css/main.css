@@ -4541,6 +4541,49 @@ a {
     color: white;
   }
 
+  div.contacts {
+    width: 80%;
+    margin: 0 auto;
+  }
+  div.contacts h3 {
+    font-size: 2.9em;
+    text-align: center;
+  }
+  div.contacts h4.contact-sub-heading {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  div.contacts div.contact-container {
+    margin: 10px 1.5%;
+    display: inline-block;
+    border-bottom: 1px solid #d3dddc;
+    height: 120px;
+    width: 30%;
+  }
+  div.contacts div.contact-container div.contact-icon {
+    display: inline-block;
+    padding-top: 20px;
+  }
+  div.contacts div.contact-container div.contact-icon span {
+    color: #85d4e3;
+    font-size: 60px;
+  }
+  div.contacts div.contact-container div.contact-info {
+    width: 68%;
+    float: right;
+  }
+  div.contacts div.contact-container div.contact-info h4 {
+    display: block;
+  }
+  div.contacts div.contact-container div.contact-info a {
+    display: inline-block;
+    border-bottom: 1px solid #85d4e3;
+    padding-bottom: 3px;
+  }
+  div.contacts div.contact-container div.contact-info a:hover {
+    color: #fad77b;
+  }
+
   section {
     margin: 140px 10% 30px 10%;
   }
@@ -4550,8 +4593,6 @@ a {
   section .blog-intro {
     font-size: 1.4em;
     margin-bottom: 50px;
-    padding-bottom: 50px;
-    border-bottom: 1px solid #fad77b;
   }
   section span {
     font-size: 1em;
@@ -4573,6 +4614,7 @@ a {
   section div.entry .article {
     display: none;
     margin-bottom: 50px;
+    width: 83%;
   }
   section div.entry .toggle-button {
     color: white;
@@ -4584,18 +4626,23 @@ a {
     text-align: right;
     margin-right: 4%;
     font-size: 16px;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
     background-color: #d3dddc;
   }
 
   footer {
-    height: 50px;
+    margin-top: 40px;
+    height: 80px;
     background-color: white;
   }
   footer p {
+    position: relative;
+    top: 15%;
+    left: 5%;
     color: #2c3e50;
-    font-size: 10em;
+    font-size: 12px;
+    display: inline-block;
   }
   footer ul.mobile-footer {
     display: none;
