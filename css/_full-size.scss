@@ -324,6 +324,52 @@ section {
 
 // Blog Index finished
 
+// Individual Article start
+
+article.blog-entry-container {
+	width: 80%;
+	margin: 150px auto;
+	h2 {
+		font-size: 3.8em;
+	}
+	h3 {
+		margin-top: -30px;
+		font-size: 1.3em;
+		font-family: 'sofia_pro_lightregular';
+		letter-spacing: 0.04em;
+	}
+	p.published-date {
+	}
+	.twitter-share-button {
+	}
+	div.blog-entry {
+		margin: 0 auto;
+		line-height: 1.4em;
+		a {
+		}
+	}
+	p {
+		a {
+			color: $pink;
+			font-style: bold;
+		}
+	}
+	h4 {
+		font-family: 'sofia_pro_lightregular';
+		font-style: italic;
+	}
+	.blog-contact {
+		margin-top: 50px;
+	}
+	#disqus_thread {
+		width: 80%;
+		margin: 40px auto;
+	}
+}
+
+
+// Individual article finished
+
 
 // Blog finish
 

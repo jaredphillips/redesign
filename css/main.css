@@ -4816,13 +4816,54 @@ a {
     display: inline-block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003329}}
+  article.blog-entry-container {
+    width: 80%;
+    margin: 150px auto;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003332}}
+  article.blog-entry-container h2 {
+    font-size: 3.8em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003335}}
+  article.blog-entry-container h3 {
+    margin-top: -30px;
+    font-size: 1.3em;
+    font-family: 'sofia_pro_lightregular';
+    letter-spacing: 0.04em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003345}}
+  article.blog-entry-container div.blog-entry {
+    margin: 0 auto;
+    line-height: 1.4em;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003352}}
+  article.blog-entry-container p a {
+    color: #f4b5bd;
+    font-style: bold;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003357}}
+  article.blog-entry-container h4 {
+    font-family: 'sofia_pro_lightregular';
+    font-style: italic;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003361}}
+  article.blog-entry-container .blog-contact {
+    margin-top: 50px;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003364}}
+  article.blog-entry-container #disqus_thread {
+    width: 80%;
+    margin: 40px auto;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003377}}
   footer {
     margin-top: 40px;
     height: 80px;
     background-color: white;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003381}}
   footer p {
     position: relative;
     top: 15%;
@@ -4831,7 +4872,7 @@ a {
     font-size: 12px;
     display: inline-block;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003389}}
   footer ul.mobile-footer {
     display: none;
   }
