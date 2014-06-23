@@ -257,7 +257,7 @@ div.contacts {
 			display: inline-block;
 			padding-top: 20px;
 			span { 
-				color: $darker-grey;
+				color: $off-black;
 				font-size: 60px;
 			}
 		}
@@ -269,7 +269,7 @@ div.contacts {
 			}
 			a {
 				display: inline-block;
-				border-bottom: 1px solid $blue;
+				border-bottom: 1px solid $pink;
 				padding-bottom: 3px;
 			}
 			a:hover {
@@ -300,7 +300,8 @@ section {
 	div.blog-entry {
 		border-top: 1px solid $grey;
 		h3 {
-			margin-left: 5%;
+			font-size: 1.3em;
+			margin-left: 3%;
 			width: 60%;
 			padding-top: 10px;
 			display: inline-block;
