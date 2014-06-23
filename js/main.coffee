@@ -1,7 +1,7 @@
-$('.nav-link').click ->
-	$('.nav-link').removeClass("active")
+
+$('a.nav-link').click ->
+	$('a.nav-link').removeClass("active")
 	$(@).addClass("active")
-	# This doesn't work yet
 
 $("p.toggle-button").click ->
   text = (if $(this).parent().children(".article").is(":visible") then "Read" else "Close")
