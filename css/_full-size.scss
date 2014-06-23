@@ -279,60 +279,52 @@ div.contacts {
 	}
 }
 
-
-
 // Contact Me Finish
 
 // Blog start
+
+// Blog index page
 
 section {
 	margin: 140px 10% 30px 10%;
 	h2 {
 		font-size: 3.9em;
 	}
-	.blog-intro {
+	p.blog-intro {
 		font-size: 1.4em;
 		margin-bottom: 50px;
 		a {
 			text-decoration: underline;
 		}
 	}
-	span {
-		font-size: 1em;
-		color: $darker-grey;
-	}
-	div.entry {
+	div.blog-entry {
 		border-top: 1px solid $grey;
 		h3 {
-			font-family: 'novecento_sans_widemedium';
+			margin-left: 5%;
+			width: 60%;
 			padding-top: 10px;
-		}
-		.date {
-			margin-top: -10px;
-			text-align: left;
 			display: inline-block;
+			a {
+				color: $off-black;
+				letter-spacing: 2.5px;
+				font-family: 'novecento_sans_widemedium';
+			}
+			a:hover {
+				color: $blue;
+			}
 		}
-		.article {
-			display: none;
-			margin-bottom: 50px;
-			width: 83%;
-		}
-		.toggle-button {
-			color: white;
-			display: inline-block;
+		p.date {
+			width: 30%;
 			margin-top: -10px;
-			float: right;
-			position: relative;
-			top: -10px;
 			text-align: right;
-			margin-right: 4%;
-			font-size: 16px;
-			padding: 10px 30px;
-			border-radius: 5px;
-			background-color: $grey;
+			display: inline-block;
 		}
 	}
 }
+
+// Blog Index finished
+
+
 // Blog finish
 
 // Footer Start
@@ -351,7 +343,6 @@ footer {
 	ul.mobile-footer {
 		display: none;
 	}
-
 }
 // Footer Finish
 
