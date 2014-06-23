@@ -3568,8 +3568,8 @@ a {
 
 @font-face {
   font-family: 'icomoon';
-  src: url("../fonts/icomoon.eot?h1yhbx");
-  src: url("../fonts/icomoon.eot?#iefixh1yhbx") format("embedded-opentype"), url("../fonts/icomoon.woff?h1yhbx") format("woff"), url("../fonts/icomoon.ttf?h1yhbx") format("truetype"), url("../fonts/icomoon.svg?h1yhbx#icomoon") format("svg");
+  src: url("../fonts/icomoon.eot?6ugo09");
+  src: url("../fonts/icomoon.eot?#iefix6ugo09") format("embedded-opentype"), url("../fonts/icomoon.woff?6ugo09") format("woff"), url("../fonts/icomoon.ttf?6ugo09") format("truetype"), url("../fonts/icomoon.svg?6ugo09#icomoon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -3588,538 +3588,888 @@ a {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000326}}
-.icon-cloud-upload:before {
-  content: "\f0ee";
+.icon-check:before {
+  content: "\f00c";
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000329}}
-.icon-suitcase:before {
-  content: "\f0f2";
+.icon-trash-o:before {
+  content: "\f014";
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000332}}
+.icon-chevron-left:before {
+  content: "\f053";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000335}}
+.icon-chevron-right:before {
+  content: "\f054";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000338}}
+.icon-linkedin-square:before {
+  content: "\f08c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000341}}
 .icon-github-alt:before {
   content: "\f113";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000344}}
+.icon-html5:before {
+  content: "\f13b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000347}}
+.icon-css3:before {
+  content: "\f13c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000350}}
+.icon-unlock-alt:before {
+  content: "\f13e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000353}}
+.icon-stack-overflow:before {
+  content: "\f16c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000356}}
+.icon-instagram:before {
+  content: "\f16d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000359}}
+.icon-pagelines:before {
+  content: "\f18c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000362}}
+.icon-vimeo-square:before {
+  content: "\f194";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000365}}
+.icon-space-shuttle:before {
+  content: "\f197";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000368}}
+.icon-wordpress:before {
+  content: "\f19a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000371}}
+.icon-google:before {
+  content: "\f1a0";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000374}}
+.icon-cube:before {
+  content: "\f1b2";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000377}}
+.icon-recycle:before {
+  content: "\f1b8";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000380}}
+.icon-soundcloud:before {
+  content: "\f1be";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000383}}
+.icon-vine:before {
+  content: "\f1ca";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000386}}
+.icon-codepen:before {
+  content: "\f1cb";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000389}}
+.icon-jsfiddle:before {
+  content: "\f1cc";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000392}}
+.icon-git:before {
+  content: "\f1d3";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000395}}
+.icon-send:before {
+  content: "\f1d8";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000398}}
+.icon-send-o:before {
+  content: "\f1d9";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003101}}
 .icon-mobile:before {
   content: "\e000";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003104}}
 .icon-laptop:before {
   content: "\e001";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003107}}
 .icon-desktop:before {
   content: "\e002";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003110}}
 .icon-tablet:before {
   content: "\e003";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003113}}
 .icon-phone:before {
   content: "\e004";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003116}}
 .icon-document:before {
   content: "\e005";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003119}}
 .icon-documents:before {
   content: "\e006";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003122}}
 .icon-search:before {
   content: "\e007";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003125}}
 .icon-clipboard:before {
   content: "\e008";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003128}}
 .icon-newspaper:before {
   content: "\e009";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000365}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003131}}
 .icon-notebook:before {
   content: "\e00a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003134}}
 .icon-book-open:before {
   content: "\e00b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003137}}
 .icon-browser:before {
   content: "\e00c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003140}}
 .icon-calendar:before {
   content: "\e00d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003143}}
 .icon-presentation:before {
   content: "\e00e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003146}}
 .icon-picture:before {
   content: "\e00f";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003149}}
 .icon-pictures:before {
   content: "\e010";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003152}}
 .icon-video:before {
   content: "\e011";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003155}}
 .icon-camera:before {
   content: "\e012";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003158}}
 .icon-printer:before {
   content: "\e013";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003161}}
 .icon-toolbox:before {
   content: "\e014";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003164}}
 .icon-briefcase:before {
   content: "\e015";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003167}}
 .icon-wallet:before {
   content: "\e016";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003170}}
 .icon-gift:before {
   content: "\e017";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003173}}
 .icon-bargraph:before {
   content: "\e018";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003110}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003176}}
 .icon-grid:before {
   content: "\e019";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003113}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003179}}
 .icon-expand:before {
   content: "\e01a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003182}}
 .icon-focus:before {
   content: "\e01b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003119}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003185}}
 .icon-edit:before {
   content: "\e01c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003188}}
 .icon-adjustments:before {
   content: "\e01d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003125}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003191}}
 .icon-ribbon:before {
   content: "\e01e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003194}}
 .icon-hourglass:before {
   content: "\e01f";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003197}}
 .icon-lock:before {
   content: "\e020";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003200}}
 .icon-megaphone:before {
   content: "\e021";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003203}}
 .icon-shield:before {
   content: "\e022";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003206}}
 .icon-trophy:before {
   content: "\e023";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003209}}
 .icon-flag:before {
   content: "\e024";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003212}}
 .icon-map:before {
   content: "\e025";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003149}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003215}}
 .icon-puzzle:before {
   content: "\e026";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003218}}
 .icon-basket:before {
   content: "\e027";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003155}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003221}}
 .icon-envelope:before {
   content: "\e028";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003224}}
 .icon-streetsign:before {
   content: "\e029";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003161}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003227}}
 .icon-telescope:before {
   content: "\e02a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003164}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003230}}
 .icon-gears:before {
   content: "\e02b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003167}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003233}}
 .icon-key:before {
   content: "\e02c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003236}}
 .icon-paperclip:before {
   content: "\e02d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003239}}
 .icon-attachment:before {
   content: "\e02e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003242}}
 .icon-pricetags:before {
   content: "\e02f";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003245}}
 .icon-lightbulb:before {
   content: "\e030";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003248}}
 .icon-layers:before {
   content: "\e031";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003185}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003251}}
 .icon-pencil:before {
   content: "\e032";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003188}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003254}}
 .icon-tools:before {
   content: "\e033";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003257}}
 .icon-tools-2:before {
   content: "\e034";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003194}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003260}}
 .icon-scissors:before {
   content: "\e035";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003263}}
 .icon-paintbrush:before {
   content: "\e036";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003200}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003266}}
 .icon-magnifying-glass:before {
   content: "\e037";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003269}}
 .icon-circle-compass:before {
   content: "\e038";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003272}}
 .icon-linegraph:before {
   content: "\e039";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003209}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003275}}
 .icon-mic:before {
   content: "\e03a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003278}}
 .icon-strategy:before {
   content: "\e03b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003281}}
 .icon-beaker:before {
   content: "\e03c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003284}}
 .icon-caution:before {
   content: "\e03d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003221}}
-.icon-recycle:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003287}}
+.icon-recycle2:before {
   content: "\e03e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003290}}
 .icon-anchor:before {
   content: "\e03f";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003293}}
 .icon-profile-male:before {
   content: "\e040";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003230}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003296}}
 .icon-profile-female:before {
   content: "\e041";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003299}}
 .icon-bike:before {
   content: "\e042";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003236}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003302}}
 .icon-wine:before {
   content: "\e043";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003305}}
 .icon-hotairballoon:before {
   content: "\e044";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003308}}
 .icon-globe:before {
   content: "\e045";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003311}}
 .icon-genius:before {
   content: "\e046";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003314}}
 .icon-map-pin:before {
   content: "\e047";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003317}}
 .icon-dial:before {
   content: "\e048";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003254}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003320}}
 .icon-chat:before {
   content: "\e049";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003323}}
 .icon-heart:before {
   content: "\e04a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003260}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003326}}
 .icon-cloud:before {
   content: "\e04b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003329}}
 .icon-upload:before {
   content: "\e04c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003332}}
 .icon-download:before {
   content: "\e04d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003335}}
 .icon-target:before {
   content: "\e04e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003338}}
 .icon-hazardous:before {
   content: "\e04f";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003341}}
 .icon-piechart:before {
   content: "\e050";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003278}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003344}}
 .icon-speedometer:before {
   content: "\e051";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003347}}
 .icon-global:before {
   content: "\e052";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003350}}
 .icon-compass:before {
   content: "\e053";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003287}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003353}}
 .icon-lifesaver:before {
   content: "\e054";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003290}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003356}}
 .icon-clock:before {
   content: "\e055";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003293}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003359}}
 .icon-aperture:before {
   content: "\e056";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003296}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003362}}
 .icon-quote:before {
   content: "\e057";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003365}}
 .icon-scope:before {
   content: "\e058";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003302}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003368}}
 .icon-alarmclock:before {
   content: "\e059";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003371}}
 .icon-refresh:before {
   content: "\e05a";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003308}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003374}}
 .icon-happy:before {
   content: "\e05b";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003377}}
 .icon-sad:before {
   content: "\e05c";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003380}}
 .icon-facebook:before {
   content: "\e05d";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003383}}
 .icon-twitter:before {
   content: "\e05e";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003386}}
 .icon-googleplus:before {
   content: "\e05f";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003389}}
 .icon-rss:before {
   content: "\e060";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003392}}
 .icon-tumblr:before {
   content: "\e061";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003395}}
 .icon-linkedin:before {
   content: "\e062";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003398}}
 .icon-dribbble:before {
   content: "\e063";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003335}}
-.icon-sun:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003401}}
+.icon-sunrise:before {
   content: "\e600";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003338}}
-.icon-cloudy:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003404}}
+.icon-sun:before {
   content: "\e601";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003341}}
-.icon-lightning:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003407}}
+.icon-moon:before {
   content: "\e602";
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003344}}
-.icon-weather:before {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003410}}
+.icon-sun2:before {
   content: "\e603";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003413}}
+.icon-windy:before {
+  content: "\e604";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003416}}
+.icon-wind:before {
+  content: "\e605";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003419}}
+.icon-snowflake:before {
+  content: "\e606";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003422}}
+.icon-cloudy:before {
+  content: "\e607";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003425}}
+.icon-cloud2:before {
+  content: "\e608";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003428}}
+.icon-weather:before {
+  content: "\e609";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003431}}
+.icon-weather2:before {
+  content: "\e60a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003434}}
+.icon-weather3:before {
+  content: "\e60b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003437}}
+.icon-lines:before {
+  content: "\e60c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003440}}
+.icon-cloud3:before {
+  content: "\e60d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003443}}
+.icon-lightning:before {
+  content: "\e60e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003446}}
+.icon-lightning2:before {
+  content: "\e60f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003449}}
+.icon-rainy:before {
+  content: "\e610";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003452}}
+.icon-rainy2:before {
+  content: "\e611";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003455}}
+.icon-windy2:before {
+  content: "\e612";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003458}}
+.icon-windy3:before {
+  content: "\e613";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003461}}
+.icon-snowy:before {
+  content: "\e614";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003464}}
+.icon-snowy2:before {
+  content: "\e615";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003467}}
+.icon-snowy3:before {
+  content: "\e616";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003470}}
+.icon-weather4:before {
+  content: "\e617";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003473}}
+.icon-cloudy2:before {
+  content: "\e618";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003476}}
+.icon-cloud4:before {
+  content: "\e619";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003479}}
+.icon-lightning3:before {
+  content: "\e61a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003482}}
+.icon-sun3:before {
+  content: "\e61b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003485}}
+.icon-moon2:before {
+  content: "\e61c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003488}}
+.icon-cloudy3:before {
+  content: "\e61d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003491}}
+.icon-cloud5:before {
+  content: "\e61e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003494}}
+.icon-cloud6:before {
+  content: "\e61f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003497}}
+.icon-lightning4:before {
+  content: "\e620";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003500}}
+.icon-rainy3:before {
+  content: "\e621";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003503}}
+.icon-rainy4:before {
+  content: "\e622";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003506}}
+.icon-windy4:before {
+  content: "\e623";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003509}}
+.icon-windy5:before {
+  content: "\e624";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003512}}
+.icon-snowy4:before {
+  content: "\e625";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003515}}
+.icon-snowy5:before {
+  content: "\e626";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003518}}
+.icon-weather5:before {
+  content: "\e627";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003521}}
+.icon-cloudy4:before {
+  content: "\e628";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003524}}
+.icon-lightning5:before {
+  content: "\e629";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003527}}
+.icon-thermometer:before {
+  content: "\e62a";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003530}}
+.icon-compass2:before {
+  content: "\e62b";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003533}}
+.icon-none:before {
+  content: "\e62c";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003536}}
+.icon-Celsius:before {
+  content: "\e62d";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003539}}
+.icon-Fahrenheit:before {
+  content: "\e62e";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003542}}
+.icon-microphone:before {
+  content: "\e064";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003545}}
+.icon-github:before {
+  content: "\e62f";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003548}}
+.icon-twitter2:before {
+  content: "\e630";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003551}}
+.icon-linkedin2:before {
+  content: "\e631";
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_icons\.scss}line{font-family:\00003554}}
+.icon-linkedin3:before {
+  content: "\e632";
 }
 
 @font-face {
@@ -4747,7 +5097,7 @@ a {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003259}}
   div.contacts div.contact-container div.contact-icon span {
-    color: #85d4e3;
+    color: #95a5a6;
     font-size: 60px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003264}}
