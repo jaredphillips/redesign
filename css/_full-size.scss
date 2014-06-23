@@ -145,7 +145,7 @@ div.services {
 
 a.button {
 	text-align: center;
-	margin: 0 auto;
+	margin: 50px auto;
 	box-sizing: border-box;
 	background-color: white;
 	display: block;
@@ -167,69 +167,38 @@ a.button:hover {
 
 // Projects Start
 
-div.projects {
-	margin: 90px auto;
-	width: 50%;
-	border-top: 1px solid $grey;
-	h3 {
-		font-size: 2.7em;
-  	margin-bottom: 40px;
-  	text-align: center;
+div.container {
+	width: 70%;
+	margin: 0 auto;
+	h3.title {
+		font-size: 2.5em;
+		text-align: center;
+		color: $off-black;
 	}
-	div.project {
-		img.project-image {
-			width: 100%;
-			margin: 0 auto;
-			text-align: center;
-			padding: 20px;
-			border: 1px solid $grey;
-			background-color: white;
-		}
-		h5 {
-			text-align: center;
-			a {
-				margin: 0 auto 40px auto; 
-				font-size: 2.1em;
-				font-family: 'novecento_sans_widemedium';
-				color: $off-black;
-				letter-spacing: 2.5px;
-				transition: .5s;
+	ul.grid.cs-style-4 {
+		li {
+			figure {
+			}
+			div {
+				img {}
+			}
+			figcaption {
+				h3 {}
+				span.desc {
+					font-size: 15px;
+					display: block;
+					margin-bottom: 15px;
+					color: $yellow;
+				}
+				span.tech {
+					font-size: 12px;
+				}
+				a {}
 			}
 		}
-		a:hover {
-			color: $light-green;
-		}
-		p.description {
-			text-align: center;
-			width: 80%;
-			margin: 30px auto;
-		}
-		p.tech {
-			width: 80%;
-			margin: 0 auto;
-			span {
-				font-size: 1.6em;
-				color: $blue;
-			}
-		}
-		a.project-button {
-			margin: 50px auto;
-			width: 100px;
-			text-align: center;
-			display: block;
-	  	background-color: $yellow;
-	  	color: white;
-		  padding: 20px;
-	  	border-radius: 3px;
-	  	transition: .5s;
-	  }
-	  a.project-button:hover {
-	  	transition: .5s;
-	  	background-color: $blue;
-	  	color: white;
-	  }
 	}
 }
+
 
 // Projects finish
 

@@ -76,37 +76,68 @@
 
 
     <!-- My work/projects section -->
-    <div class="projects" id="work">
-      <h3>SOME OF MY WORK</h3>
-      <div class="project first-row">
-        <img class="project-image" src="images/field_day.png" alt="">
-        <h5><a href="http://www.itsafieldday.com">- FIELD DAY TERRARIUMS -</a></h5>
-        <p class="description">Based in Toronto, Field Day Terrariums makes beautiful small scale environments using little plants and people to create memorable miniature scenes.</p>
-        <p class="tech"><span>Tech: </span>HTML, CSS, Themes, Fancybox, Javascipt, Bluehost Hosting</p>
-        <a class="project-button" href="www.itsafieldday.com">Live Demo</a>
-      </div>
-      <div class="project">
-        <img class="project-image" src="images/jr_dev.png" alt="">
-        <h5><a href="http://www.thejuniordeveloper.com">- THE JUNIOR DEVELOPER -</a></h5>
-        <p class="description">The Junior Developer is an collection of articles, tutorials and resources for junior web developers.</p>
-        <p class="tech"><span>Tech: </span>Ruby on Rails, CSS Animations, Heroku, Responsive</p>
-        <a class="project-button" href="http://www.thejuniordeveloper.com">Live Demo</a>
-      </div>
-      <div class="project">
-        <img class="project-image" src="images/sadies.png" alt="">
-        <h5><a href="http://www.jaredphillips.io/sadiesdiner">- SADIE'S DINER -</a></h5>
-        <p class="description">Toronto based vegan restuarant is a favourite to many.</p>
-        <p class="tech"><span>Tech: </span>HAML, SASS, CSS Animations, jQuery, Fancybox, Slick Slider</p>
-        <a class="project-button" href="http://www.jaredphillips.io/sadiesdiner">Live Demo</a>
-      </div>
-      <div class="project">
-        <img class="project-image" src="images/llc.png" alt="">
-        <h5><a href="http://ladieslearningcode.herokuapp.com/">- LADIES LEARNING CODE SLIDE SHOW -</a></h5>
-        <p class="description">Ladies Learning Code operates web development classes in 18 cities across Canada. This slide show allows users to tag photos and have them displayed in a fun format while in class.</p>
-        <p class="tech"><span>Tech: </span>Instagram API, Angular, CSS Animations & Transitions</p>
-        <a class="project-button" href="http://ladieslearningcode.herokuapp.com/">Live Demo</a>
-      </div>
-    </div>
+    
+    <div class="container demo-3">
+      <h3 class="title">SOME OF MY WORK</h3>
+      <ul class="grid cs-style-4">
+        <li>
+          <figure>
+            <div><img src="images/work-fieldday.jpg" alt="img01"></div>
+            <figcaption>
+              <h3>Field Day Terrariums</h3>
+              <span class="desc">Wonderful miniture scenes inside filled with little life</span>
+              <span class="tech">Theme Development, Fancybox, js, Bluehosting, HTML, CSS</span>
+              <a href="http://itsafieldday.com" target="_blank">Take a look</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div><img src="images/work-jrdev.png" alt="img02"></div>
+            <figcaption>
+              <h3>The Junior Developer</h3>
+              <span class="desc">Resources, articles and tutorials for Junior Developers</span>
+              <span class="tech">Ruby on Rails, SASS, HAML, Heroku, Animations, RSS feed, Newsletter</span>
+              <a href="http://thejuniordeveloper.com" target="_blank">Take a look</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div><img src="images/work-llc.png" alt="img03"></div>
+            <figcaption>
+              <h3>Ladies Learning Code Slide Show</h3>
+              <span class="desc">Using the Instagram API, slideshow allows users to tag photo to share on the big screen</span>
+              <span class="tech">Angular, API, Instagram, CSS Animations & Transitions</span>
+              <a href="http://ladieslearningcode.herokuapp.com/" target="_blank">Take a look</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div><img src="images/work-sadies.png" alt="img04"></div>
+            <figcaption>
+              <h3>Sadie's Diner</h3>
+              <span class="desc">Fan site for Toronto vegan restaurant</span>
+              <span class="tech">CSS Animations, HAML, SASS, SlickSlider, jQuery, Fancybox</span>
+              <a href="http://jaredphillips.io/sadiesdiner" target="_blank">Take a look</a>
+            </figcaption>
+          </figure>
+        </li>
+        <li>
+          <figure>
+            <div><img src="images/work-cooper.jpg" alt="img04"></div>
+            <figcaption>
+              <h3>Twin Peaks Lorem Ipsum</h3>
+              <span class="desc">A lorem ipsum generator for my favourite show, Twin Peaks</span> 
+              <span class="tech">CSS Animations, SASS, twitter</span> 
+              <a href="http://jaredphillips.io/sadiesdiner" target="_blank">Take a look</a>
+            </figcaption>
+          </figure>
+        </li>       
+      </ul>
+    </div><!-- /container -->
+    
 
     <!-- Contact Me Section -->
     <div class="contacts" id="contact">
@@ -216,5 +247,6 @@
           offset: 90, 
         });
     </script> -->
+    <script src="js/toucheffects.js"></script>
   </body>
 </html>
