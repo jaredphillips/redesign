@@ -95,8 +95,13 @@ div.about {
 
 div.services {
 	margin-top: 100px;
-	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
 	text-align: center;
+	border-bottom: 1px solid $grey;
+	padding-bottom: 100px;
+
   h3 {
   	font-size: 2.7em;
   	margin-bottom: 40px;
@@ -145,7 +150,7 @@ div.services {
 
 a.button {
 	text-align: center;
-	margin: 50px auto;
+	margin: 90px auto 0 auto;
 	box-sizing: border-box;
 	background-color: white;
 	display: block;
@@ -170,8 +175,10 @@ a.button:hover {
 div.container {
 	width: 70%;
 	margin: 0 auto;
+	border-bottom: 1px solid $grey;
 	h3.title {
-		font-size: 2.5em;
+		margin-bottom: 10px;
+		font-size: 2.9em;
 		text-align: center;
 		color: $off-black;
 	}
@@ -191,13 +198,21 @@ div.container {
 					color: $yellow;
 				}
 				span.tech {
-					font-size: 12px;
+					font-size: 14px;
 				}
-				a {}
+				a {
+					transition: .5s;
+				}
+				a:hover {
+					transition: .5s;
+					color: $off-black;
+					background-color: $yellow;
+				}
 			}
 		}
 	}
 }
+
 
 
 // Projects finish
@@ -226,7 +241,7 @@ div.contacts {
 			display: inline-block;
 			padding-top: 20px;
 			span { 
-				color: $off-black;
+				color: $grey;
 				font-size: 60px;
 			}
 		}
