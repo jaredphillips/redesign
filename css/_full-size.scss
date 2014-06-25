@@ -177,7 +177,8 @@ div.mobile-container {
 }
 
 div.container {
-	width: 100%;
+	width: 70%;
+	margin: 0 auto;
 	border-bottom: 1px solid $grey;
 	h3.title {
 		margin-bottom: 10px;
@@ -224,49 +225,61 @@ div.container {
 
 // Contact Me start
 
-	
-div.contacts {
-	width: 80%;
-	margin: 0 auto;
-	h3 {
-		font-size: 2.9em;
-		text-align: center;
-	}
-	h4.contact-sub-heading {
-		text-align: center;
-		margin-bottom: 60px;
-	}
-	div.contact-container {
-		margin: 10px 1.5%;
-		display: inline-block;
-		border-bottom: 1px solid $grey;
-		height: 120px;
-		width: 30%;
-		div.contact-icon {
+div.contact-container {
+	width: 100%;
+	height: 500px;
+	div.contact-wrapper {
+		width: 80%;
+		height: 300px;
+		margin: 0 auto;
+		position: relative;
+		top: 80px;
+		h3 {
 			display: inline-block;
-			padding-top: 20px;
-			span { 
-				color: $grey;
-				font-size: 60px;
-			}
+			margin: 0 auto;
+			font-size: 30px;
 		}
-		div.contact-info {
-			width: 68%;
-			float: right;
-			h4 {
-				display: block;
-			}
-			a {
+		ul {
+		margin: 0 auto;
+		position: relative;
+		top: 0;
+		left: 100px;	
+			li {
+				margin: 0 10px;
+				width: 270px;
 				display: inline-block;
-				border-bottom: 1px solid $pink;
-				padding-bottom: 3px;
-			}
-			a:hover {
-				color: $dark-green;
+				div.icon-holder {
+					display: block;
+					span.contact {
+						display: inline-block;
+						font-size: 40px;
+						margin-right: 2px;
+						position: relative;
+						top: 60px;
+
+					}
+				}
+				div.info {
+					width: 80%;
+					display: inline-block;
+					float: right;
+					div.blurp {
+						p {
+						}
+					}
+					div.address {
+						p {
+							a {
+							}
+						}
+					}
+				}
 			}
 		}
 	}
 }
+
+
 
 // Contact Me Finish
 
