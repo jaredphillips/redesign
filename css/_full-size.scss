@@ -246,6 +246,9 @@ div.contact-container {
 			font-size: 50px;
 			color: $yellow;
 		}
+		a:hover {
+			color: $blue;
+		}
 	}
 	h3.twitter {
 		// margin-top: -40px;
@@ -253,6 +256,9 @@ div.contact-container {
 		a {
 			font-size: 50px;
 			color: $blue;
+		}
+		a:hover {
+			color: $yellow;
 		}
 	}
 	p.github {
@@ -263,6 +269,9 @@ div.contact-container {
 			font-family: 'lookupregular';
 			font-size: 70px;
 		}
+		a:hover {
+			color: $pink;
+		}
 	}
 	h3.linkedin {
 		margin-top: -40px;
@@ -272,11 +281,17 @@ div.contact-container {
 			font-size: 40px;
 			color: $dark-green;
 		}
+		a:hover {
+			color: $blue;
+		}
 	}
 	h3.codepen {
 		// margin-top: -20px;
 		border-bottom: 1px solid $grey;
 		a {}
+		a:hover {
+			color: $dark-green;
+		}
 	}
 }
 
