@@ -63,12 +63,14 @@ header {
 // About start
 
 .about {
+	box-sizing: border-box;
+	padding: 0 2%;
 	margin-top: 60px;
 	background-color: $blue;
 	width: 100%;
 	height: 160px;
 	text-align: center;
-	padding-top: 10%;
+	padding-top: 3%;
 }
 
 // Services start
@@ -78,6 +80,7 @@ header {
 	width: 100%;
 	margin-bottom: 100px;
 	h3 {
+		font-size: 2em;
 	}
 	.service {
 		margin-bottom: 40px;
@@ -119,55 +122,54 @@ a.button {
 
 // Projects start
 
-div.projects {
-	margin-top: 10%;
-	text-align: center;
+// Hidding container for full size
+div.container {
+	display: none;
+}
+
+div.mobile-container {
+	background-color: pink;
+	height: 100%;
+	padding-bottom: 20px;
 	width: 100%;
 	h3 {
+		font-size: 2em;
+		padding-top: 25px;
+		width: 100%;
+		text-align: center;
 	}
-	div.project {
-		margin-bottom: 15%;
-		img.project-image {
-			border: 1px solid $grey;
+	img {
+		margin: 0 auto;
+		display: inline-block;
+		max-width: 100%;
+		width: 100%;
+	}
+	h4 {
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		font-size: 1.5em;
+		margin-top: 0px;
+		a {
+			color: white;
+			font-family: 'novecento_sans_widemedium';
 		}
-		h4 {
-			a {
-				text-align: center;
-				font-family: 'sofia_pro_lightregular';
-				font-weight: normal;
-				letter-spacing: 1px;
-				font-size: 18px;
-				color: $pink;
-				text-decoration: underline;
-				transition: 0.5s;
-			}
-			a:hover {
-				color: $yellow;
-				transition: 0.5s;
-			}
-		}
-		p.description {
-			text-align: center;
-			margin: -20px auto 10px auto;
-			width: 240px;
-			color: $darker-grey;
-			font-size: 15px;
-		}
-		p.tech {
-			text-align: center;
-			margin: 0 auto;
-			width: 240px;
-			color: $darker-grey;
-			margin-bottom: 40px;
-			font-size: 15px;
-			padding-bottom: -10px;
-			span {
-				color: $blue;
-				font-size: 17px;
-			}
+	}
+	p.desc {
+		width: 80%;
+		margin: -16px auto;
+		text-align: center;
+	}
+	p.tech {
+		width: 80%;
+		text-align: center;
+		margin: 45px auto;
+		span {
+			color: white;
 		}
 	}
 }
+
 
 div.button-holder {
 	a.button {
@@ -193,40 +195,48 @@ div.button-holder {
 div.contacts {
 	margin: 0 4%;
 	padding-bottom: 50px;
-	border-bottom: 1px solid $darker-grey;
 	h3 {
+		font-size: 2.5em;
 		text-align: center;
 		margin-bottom: 30px;
 	}
-	div.contact-container {
-		margin: 30px 0;
-		div.contact-icon {
-			width: 30%;
-			display: inline-block;
-			span {
-				color: $grey;
-				font-size: 60px;
-				padding-left: 50px;
-				padding-top: 20px;
-			}
-		}
-		div.contact-info {
-			width: 60%;
-			float: right;
-			position: relative;
-			left: -10px;
-		}
-		h4 {
-			color: $dark-green;
-			padding: 0;
-			line-height: 0;
-		}
-		a {
-			color: $light-green;
-			line-height: 0;
-			padding-bottom: 3px;
-			border-bottom: 1px solid $grey;
-		}
+	p.contact-sub-heading {
+		color: $off-black;
+		font-family: 'sofia_pro_lightregular';
+		font-size: 0.9em;
+		width: 100%;
+		margin-top: -20px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+}
+
+div.contact-container {
+	margin-left: 4%;
+	width: 90%;
+	margin-bottom: 30px;
+	div.text {
+		font-family: 'sofia_pro_lightregular';
+		width: 60%;
+		display: inline-block;
+		font-size: 1.3em;
+		position: relative;
+		top: -40px;
+		left: 5px;
+	}
+	div.contact-info {
+		font-family: 'sofia_pro_lightregular';
+		width: 60%;
+		display: inline-block;
+		position: relative;
+		top: -20px;
+		left: 105px;
+	}
+	span {
+		color: $blue;
+		font-size: 70px;
+		display: inline-block;
+		width: 30%;
 	}
 }
 
@@ -290,7 +300,6 @@ footer {
 	left: 0;
 	background: white;
 	width: 100%;
-	border-top: 1px solid $grey;
 	p {
 		display: none;
 	}

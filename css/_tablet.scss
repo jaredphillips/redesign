@@ -2,9 +2,384 @@
 
 @media (min-width: 769px) and (max-width: 1000px) {
 
-
-
-
+body {
+	background-color: #f2f1ef;
 }
 
-// End of tablet size styles
+// Header beginning
+
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	width: 100%;
+	height: 100px;
+	background-color: white;
+ 	.ribbon {
+ 		z-index: 2;
+		display: inline-block;
+    background: $pink;
+    height: 90px;
+    width: 60px;
+    position: relative;
+    top: -10px;
+		left: 2%;
+    border: 0;
+    margin-right: 30px;
+	}
+	.ribbon:after {
+		display: inline-block;
+    content: "";
+    position: absolute;
+    bottom: -60px;
+    border: 30px solid $pink;
+    border-bottom-color: transparent;
+	}
+  h1 {
+  	display: inline-block;
+  	font-size: 2.5em;
+  	position: relative;
+		top: -27px;
+		left: 36px;
+  }
+  ul {
+  	position: relative;
+  	top: -130px;
+  	right: -945px;
+    li {
+    	padding-bottom: 60px;
+    	margin: 20px;
+			display: inline-block;
+			.header-link {
+				color: $grey;
+				letter-spacing: 1px;
+				font-size: 12px;
+			}
+			.header-link:hover {
+				color: $off-black;
+			}
+			span {
+				display: block;
+				font-size: 27px;
+				text-align: center;
+			}
+			.active {
+				color: $off-black;
+			}
+    }
+  }
+}
+
+// Header end
+
+// About beginning 
+
+div.about {
+	height: 400px;
+	background-color: $blue;
+	text-align: center;
+	h2 {
+		padding-top: 150px;
+		font-size: 4em;
+	}
+  p {
+  	font-weight: bold;
+  	font-size: 1.5em;
+  }
+}
+
+// About Ending
+
+// Services Beginning
+
+div.services {
+	margin-top: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	text-align: center;
+	border-bottom: 1px solid $grey;
+	padding-bottom: 100px;
+
+  h3 {
+  	font-size: 2.7em;
+  	margin-bottom: 40px;
+  }
+  div.first-row {
+  	box-sizing: border-box;
+  	border-radius: 10px;
+  	width: 28%;
+  	height: 300px;
+  	display: inline-block;
+  	vertical-align: top;
+  	padding: 2% 2%;
+  	transition: 1.5s;
+    span {
+    	font-size: 6em;
+    	color: $darker-grey;
+    }
+    h4 {
+    	font-size: 1.4em;
+    }
+    p {
+    	font-size: 1em;
+    }
+  }
+  div.second-row {
+  	margin: 30px 0px;
+  	border-radius: 5px;
+  	width: 28%;
+  	height: 300px;
+  	display: inline-block;
+  	vertical-align: top;
+  	padding: 2% 2%;
+  	transition: 1.5s;
+    span {
+    	color: $darker-grey;
+    	font-size: 6em;
+    }
+    h4 {
+    	font-size: 1.4em;
+    }
+    p {
+    	font-size: 1em;
+    }
+  }
+}
+
+a.button {
+	text-align: center;
+	margin: 90px auto -50px auto;
+	box-sizing: border-box;
+	background-color: white;
+	display: block;
+	width: 250px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border: 2px solid $grey;
+	border-radius: 8px;
+	transition: .5s;
+}
+a.button:hover {
+	transition: .5s;
+	background-color: $blue;
+	color: white;
+}
+
+
+// Services Finish
+
+// Projects Start
+
+div.container {
+	width: 70%;
+	margin: 0 auto;
+	border-bottom: 1px solid $grey;
+	h3.title {
+		margin-bottom: 10px;
+		font-size: 2.9em;
+		text-align: center;
+		color: $off-black;
+	}
+	ul.grid.cs-style-4 {
+		li {
+			figure {
+			}
+			div {
+				img {}
+			}
+			figcaption {
+				h3 {
+					font-size: 12px;
+				}
+				span.desc {
+					font-size: 15px;
+					display: block;
+					margin-bottom: 15px;
+					color: $off-black;
+				}
+				span.tech {
+					font-size: 14px;
+				}
+				a {
+					transition: .5s;
+				}
+				a:hover {
+					transition: .5s;
+					color: $off-black;
+					background-color: $yellow;
+				}
+			}
+		}
+	}
+}
+
+
+
+// Projects finish
+
+// Contact Me start
+
+	
+div.contacts {
+	width: 80%;
+	margin: 0 auto;
+	h3 {
+		font-size: 2.9em;
+		text-align: center;
+	}
+	h4.contact-sub-heading {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+	div.contact-container {
+		margin: 10px 1.5%;
+		display: inline-block;
+		border-bottom: 1px solid $grey;
+		height: 120px;
+		width: 30%;
+		div.contact-icon {
+			display: inline-block;
+			padding-top: 20px;
+			span { 
+				color: $grey;
+				font-size: 60px;
+			}
+		}
+		div.contact-info {
+			width: 68%;
+			float: right;
+			h4 {
+				display: block;
+			}
+			a {
+				display: inline-block;
+				border-bottom: 1px solid $pink;
+				padding-bottom: 3px;
+			}
+			a:hover {
+				color: $dark-green;
+			}
+		}
+	}
+}
+
+// Contact Me Finish
+
+// Blog start
+
+// Blog index page
+
+section {
+	margin: 140px 10% 140px 10%;
+	h2 {
+		font-size: 3.9em;
+	}
+	p.blog-intro {
+		font-size: 1.4em;
+		margin-bottom: 50px;
+	a {
+			text-decoration: underline;
+		}
+	}
+	div.blog-entry {
+		border-top: 1px solid $grey;
+		h3 {
+			font-size: 1.3em;
+			margin-left: 3%;
+			width: 60%;
+			padding-top: 10px;
+			display: inline-block;
+			a {
+				color: $off-black;
+				letter-spacing: 2.5px;
+				font-family: 'novecento_sans_widemedium';
+					margin-bottom: 50px;
+			}
+			a:hover {
+				color: $blue;
+			}
+		}
+		p.date {
+			width: 30%;
+			margin-top: -10px;
+			text-align: right;
+			display: inline-block;
+		}
+	}
+}
+
+// Blog Index finished
+
+// Individual Article start
+
+article.blog-entry-container {
+	width: 80%;
+	margin: 150px auto;
+	h2 {
+		font-size: 3.8em;
+	}
+	h3 {
+		margin-top: -30px;
+		font-size: 1.3em;
+		font-family: 'sofia_pro_lightregular';
+		letter-spacing: 0.04em;
+	}
+	p.published-date {
+	}
+	.twitter-share-button {
+	}
+	div.blog-entry {
+		margin: 0 auto;
+		line-height: 1.4em;
+		a {
+		}
+	}
+	p {
+		a {
+			color: $pink;
+			font-style: bold;
+		}
+	}
+	h4 {
+		font-family: 'sofia_pro_lightregular';
+		font-style: italic;
+	}
+	.blog-contact {
+		margin-top: 50px;
+	}
+	#disqus_thread {
+		width: 80%;
+		margin: 40px auto;
+	}
+}
+
+
+// Individual article finished
+
+
+// Blog finish
+
+// Footer Start
+footer {
+	margin-top: 40px;
+	height: 80px;
+	background-color: white;
+	p {
+		position: relative;
+		top: 15%;
+		left: 5%;
+		color: $off-black;
+		font-size: 12px;
+		display: inline-block;
+	}
+	ul.mobile-footer {
+		display: none;
+	}
+}
+// Footer Finish
+
+} // End of media call
+
