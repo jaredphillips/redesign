@@ -122,10 +122,50 @@ a.button {
 
 // Projects start
 
-// Hidding container for full size
-div.container {
-	display: none;
+div.work-container {
+	width: 90%;
+	margin: 0 auto;
+	h3 {
+		text-align: center;
+		font-size: 1.7em;
+	}
+	div.work {
+		width: 100%;
+		div.picture-frame {
+			width: 100%;			
+			.image {
+				display: block;
+				border: 1px solid $grey;
+				width: 275px;
+				height: 200px;
+				margin: 0 auto;
+			}
+		}
+		h4 {
+			text-align: center;
+		}
+		p {
+			text-align: center;
+			font-size: 10px;
+		}
+		a {
+			width: 120px;
+			height: 30px;
+			margin: 0 auto;
+			background: white;
+			display: block;
+			text-align: center;
+			margin-bottom: 30px;
+			font-size: 12px;
+			padding-top: 10px;
+			border-radius: 5px;
+			border: 2px solid $grey;
+			color: $grey;
+		}
+	}
 }
+
+
 
 div.mobile-container {
 	background-color: pink;
@@ -192,98 +232,149 @@ div.button-holder {
 
 // Contact start
 
-div.contacts {
-	margin: 0 4%;
-	padding-bottom: 50px;
-	h3 {
-		font-size: 2.5em;
-		text-align: center;
-		margin-bottom: 30px;
-	}
-	p.contact-sub-heading {
-		color: $off-black;
-		font-family: 'sofia_pro_lightregular';
-		font-size: 0.9em;
-		width: 100%;
-		margin-top: -20px;
-		margin-bottom: 30px;
-		text-align: center;
-	}
-}
-
 div.contact-container {
-	margin-left: 4%;
-	width: 90%;
-	margin-bottom: 30px;
-	div.text {
-		font-family: 'sofia_pro_lightregular';
-		width: 60%;
-		display: inline-block;
-		font-size: 1.3em;
-		position: relative;
-		top: -40px;
-		left: 5px;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	h3.bleeder {
+		// border-bottom: 1px solid $grey;
+		font-size: 2em;
 	}
-	div.contact-info {
-		font-family: 'sofia_pro_lightregular';
-		width: 60%;
-		display: inline-block;
-		position: relative;
-		top: -20px;
-		left: 105px;
+	h3.phone {
+		border-bottom: 1px solid $grey;
+		margin-top: -30px;
+		font-size: 2.4em;
+		color: $pink;
 	}
-	span {
-		color: $blue;
-		font-size: 70px;
-		display: inline-block;
-		width: 30%;
+	h3.mail {
+		border-bottom: 1px solid $grey;
+		margin-top: -20px;
+		a {
+			text-align: center;
+			font-size: 18px;
+			color: $yellow;
+		}
+		a:hover {
+			color: $blue;
+		}
+	}
+	h3.twitter {
+		// margin-top: -40px;
+		padding-bottom: 20px;
+		border-bottom: 1px solid $grey;
+		a {
+			font-size: 20px;
+			color: $blue;
+		}
+		a:hover {
+			color: $yellow;
+		}
+	}
+	p.github {
+		vertical-align: middle;
+		border-bottom: 1px solid $grey;
+		a {
+			font-family: 'lookupregular';
+			font-size: 70px;
+		}
+		a:hover {
+			color: $pink;
+		}
+	}
+	h3.linkedin {
+		padding-bottom: 30px;
+		margin-bottom: 100px;
+		border-bottom: 1px solid $grey;
+		a {
+			font-family: 'novecento_sans_widemedium';
+			font-size: 40px;
+			color: $dark-green;
+		}
+		a:hover {
+			color: $blue;
+		}
+	}
+	h3.codepen {
+		border-bottom: 1px solid $grey;
+		a {}
+		a:hover {
+			color: $dark-green;
+		}
 	}
 }
 
 // Contact finish
 
 // Blog start
-
+// Blog main page/index
 section {
-	margin-left: 4%;
-	margin-right: 4%;
+	width: 90%;
+	margin: 90px auto 30px auto;
 	h2 {
-		text-align: center;
+		text-align: left;
 	}
-	span {
-		position: relative;
-		top: 0;
-		left: 200px;
-		font-size: 70px;
-	}
-	div.entry {
-		border-bottom: 1px solid $grey;
-		border-top: 1px solid $grey
-		h3 {
-			font-family: 'novecento_sans_widemedium';
-			padding-top: 10px;
-		}
-		.date {
-			margin-top: -10px;
-			text-align: left;
-			display: inline-block;
-		}
-		.article {
-			display: none;
-			margin-bottom: 50px;
-		}
-		.toggle-button {
-			color: $off-black;
-			display: inline-block;
-			margin-top: -10px;
-			float: right;
-			text-align: right;
-			margin-right: 4%;
-			font-size: 16px;
+	p.blog-intro {
+		font-size: 12px;
+		a {
 			text-decoration: underline;
 		}
 	}
 }
+
+div.blog-entry {
+		h3.title {
+		a {
+			font-family: 'novecento_sans_widemedium';
+			color: $off-black;
+			letter-spacing: 2px;
+			font-size: 13px;
+		}
+		a:hover {
+			color: $blue;
+		}
+	}
+	p.date {
+		margin-top: -15px;
+		font-size: 12px;
+	}
+}
+
+// Displaying this button on mobile is overkill. 
+.blog-button {
+	display: none;
+}
+// Blog main page/index finished
+
+// Blog entry start
+
+
+article.blog-entry-container {
+	width: 85%;
+	margin: 95px auto 0 auto;
+	h2 {
+		font-size: 25px;
+	}
+	h3.blog-entry-bleeder {
+		font-size: 14px;
+		color: $darker-grey;
+	}
+	p.published-date {}
+	a.twitter-share-button {}
+	div.blog-entry {
+		p {}
+		a {}
+		h4 {}
+	}
+}
+div#disqus_thread {}
+
+
+
+
+
+
+// Blog entry finish
+
 
 // Blog finish
 

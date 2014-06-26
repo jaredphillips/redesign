@@ -35,41 +35,41 @@ header {
     bottom: -60px;
     border: 30px solid $pink;
     border-bottom-color: transparent;
-	}
-  h1 {
-  	display: inline-block;
-  	font-size: 2.5em;
-  	position: relative;
-		top: -27px;
-		left: 36px;
-  }
-  ul {
-  	position: relative;
-  	top: -130px;
-  	right: -945px;
-    li {
-    	padding-bottom: 60px;
-    	margin: 20px;
-			display: inline-block;
-			.header-link {
-				color: $grey;
-				letter-spacing: 1px;
-				font-size: 12px;
-			}
-			.header-link:hover {
-				color: $off-black;
-			}
-			span {
-				display: block;
-				font-size: 27px;
-				text-align: center;
-			}
-			.active {
-				color: $off-black;
-			}
-    }
-  }
+	}  
 }
+
+ul {
+	position: relative;
+	top: -90px;
+	left: 100px;
+	width: 80%;
+	li.main {
+		display: inline-block;
+		width: 55%;
+		h1 {
+			font-size: 2em;
+			a {}
+		}
+	}
+	li.navs {
+		width: 9%;
+		text-align: center;
+		display: inline-block;
+		margin-right: 10px;
+		a.header-link {
+			font-size: 15px;
+			margin: 0 auto;
+			span {
+				text-align: center;
+				font-size: 25px;
+				display: block;
+			}
+		}
+	}
+}
+
+
+
 
 // Header end
 
@@ -172,52 +172,100 @@ a.button:hover {
 
 // Projects Start
 
-div.mobile-container {
-	display: none;
-}
-
-div.container {
-	width: 70%;
+div.work-container {
+	width: 80%;
 	margin: 0 auto;
-	border-bottom: 1px solid $grey;
-	h3.title {
-		margin-bottom: 10px;
-		font-size: 2.9em;
+	height: auto;
+	h3 {
 		text-align: center;
-		color: $off-black;
+		font-size: 3em;
 	}
-	ul {
-		li {
-			figure {
+	div.first-row {
+		margin: 40px auto 40px auto;
+		vertical-align: top;
+		width: 33%;
+		height: 400px;
+		display: inline-block;
+		div.picture-frame {
+			display: block;
+			img.image {
+				display: block;
+				margin: 0 auto;
+				vertical-align: bottom;
 			}
-			div {
-				img {}
-			}
-			figcaption {
-				h3 {
-					font-size: 12px;
-				}
-				span.desc {
-					font-size: 15px;
-					display: block;
-					margin-bottom: 15px;
-					color: $off-black;
-				}
-				span.tech {
-					font-size: 14px;
-				}
-				a {
-					transition: .5s;
-				}
-				a:hover {
-					transition: .5s;
-					color: $off-black;
-					background-color: $yellow;
-				}
-			}
+		}
+		h4 {
+			text-align: center;
+			font-size: 20px;
+		}
+		p {
+			margin: 0 auto;
+			text-align: center;
+			font-size: 15px;
+		}
+		a {
+			background: $blue;
+			height: 40px;
+			width: 110px;
+			padding-top: 13px;
+			margin-top: 30px;
+			display: block;
+			text-align: center;
+			margin: 20px auto;
+			border-radius: 5px;
+			color: white;
+			border: 2px solid $blue;
+			letter-spacing: 1px;
+		}
+		a:hover {
+			color: $blue;
+			background: white;
 		}
 	}
 }
+
+div.second-row {
+	margin: 40px 2% 40px 2%;
+	vertical-align: top;
+	width: 45%;
+	height: 400px;
+	display: inline-block;
+	div.picture-frame {
+		display: block;
+		img.image {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	h4 {
+		text-align: center;
+		font-size: 20px;
+	}
+	p {
+		margin: 0 auto;
+		text-align: center;
+		font-size: 15px;
+	}
+	a {
+		background: $blue;
+		height: 40px;
+		width: 110px;
+		padding-top: 13px;
+		margin-top: 30px;
+		display: block;
+		text-align: center;
+		margin: 20px auto;
+		border-radius: 5px;
+		color: white;
+		border: 2px solid $blue;
+		letter-spacing: 1px;
+	}
+	a:hover {
+		color: $blue;
+		background: white;
+	}
+}
+
 
 
 
@@ -230,16 +278,19 @@ div.contact-container {
 	margin: 0 auto;
 	text-align: center;
 	h3.bleeder {
+
 		border-bottom: 1px solid $grey;
 		font-size: 3em;
 	}
 	h3.phone {
+
 		border-bottom: 1px solid $grey;
 		margin-top: -60px;
 		font-size: 4em;
 		color: $pink;
 	}
 	h3.mail {
+
 		border-bottom: 1px solid $grey;
 		margin-top: -70px;
 		a {
@@ -262,6 +313,7 @@ div.contact-container {
 		}
 	}
 	p.github {
+
 		vertical-align: middle;
 		// margin: 40px 0;
 		border-bottom: 1px solid $grey;
@@ -274,6 +326,7 @@ div.contact-container {
 		}
 	}
 	h3.linkedin {
+		background: $yellow;
 		margin-top: -40px;
 		border-bottom: 1px solid $grey;
 		a {
@@ -282,11 +335,12 @@ div.contact-container {
 			color: $dark-green;
 		}
 		a:hover {
-			color: $blue;
+			background: $blue;
+			color: $yellow;
 		}
 	}
 	h3.codepen {
-		// margin-top: -20px;
+		background: $pink;
 		border-bottom: 1px solid $grey;
 		a {}
 		a:hover {
@@ -367,6 +421,7 @@ article.blog-entry-container {
 		}
 	}
 	p {
+		display: inline-block;
 		a {
 			color: $pink;
 			font-style: bold;
