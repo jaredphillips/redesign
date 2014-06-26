@@ -7,68 +7,67 @@ body {
 
 // Header beginning
 
-
 header {
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 1;
 	width: 100%;
-	height: 100px;
+	height: 120px;
 	background-color: white;
- 	.ribbon {
- 		z-index: 2;
-		display: inline-block;
+	-webkit-transform: translateZ(0);
+	div.ribbon {
+    z-index: 2;
+    display: inline-block;
     background: $pink;
     height: 90px;
     width: 60px;
     position: relative;
     top: -10px;
-		left: 2%;
+    left: 2%;
     border: 0;
-    margin-right: 30px;
-	}
-	.ribbon:after {
-		display: inline-block;
+  }
+  div.ribbon:after {
+    display: inline-block;
     content: "";
     position: absolute;
     bottom: -60px;
     border: 30px solid $pink;
     border-bottom-color: transparent;
-	}  
+  }
+  div.my-name {
+  	display: inline-block;
+  	margin-left: 5%;
+  	margin-right: 400px;
+  	h1 {
+  		font-size: 2.5em;
+	  	color: $off-black;
+  		a {
+  		}
+  	}
+  }
+  div.nav-pills {
+  	display: inline-block;
+  	ul {
+  		li {
+  			display: inline-block;
+  			margin: 19px;
+
+  			a {
+  				color: $grey;
+  				span {
+  					display: block;
+  					font-size: 30px;
+  					text-align: center;
+  				}
+  			}
+  			a.active {
+  				color: $darker-grey;
+  			}
+  		}
+  	}
+  }
 }
-
-ul {
-	position: relative;
-	top: -90px;
-	left: 100px;
-	width: 80%;
-	li.main {
-		display: inline-block;
-		width: 55%;
-		h1 {
-			font-size: 2em;
-			a {}
-		}
-	}
-	li.navs {
-		width: 9%;
-		text-align: center;
-		display: inline-block;
-		margin-right: 10px;
-		a.header-link {
-			font-size: 15px;
-			margin: 0 auto;
-			span {
-				text-align: center;
-				font-size: 25px;
-				display: block;
-			}
-		}
-	}
-}
-
-
 
 
 // Header end
@@ -76,10 +75,11 @@ ul {
 // About beginning 
 
 div.about {
-	height: 400px;
+	height: 500px;
 	background-color: $blue;
 	text-align: center;
 	h2 {
+		display: inline-block;
 		padding-top: 150px;
 		font-size: 4em;
 	}
@@ -127,7 +127,7 @@ div.services {
     }
   }
   div.second-row {
-  	margin: 30px 0px;
+  	margin: 50px 0px;
   	border-radius: 5px;
   	width: 28%;
   	height: 300px;
@@ -176,6 +176,8 @@ div.work-container {
 	width: 80%;
 	margin: 0 auto;
 	height: auto;
+	padding-bottom: 50px;
+	border-bottom: 1px solid $grey;
 	h3 {
 		text-align: center;
 		font-size: 3em;
@@ -290,9 +292,9 @@ div.contact-container {
 		color: $pink;
 	}
 	h3.mail {
-
 		border-bottom: 1px solid $grey;
 		margin-top: -70px;
+		margin-left: -80px;
 		a {
 			font-size: 50px;
 			color: $yellow;
@@ -313,16 +315,15 @@ div.contact-container {
 		}
 	}
 	p.github {
-
 		vertical-align: middle;
-		// margin: 40px 0;
 		border-bottom: 1px solid $grey;
 		a {
 			font-family: 'lookupregular';
-			font-size: 70px;
+			color: $pink;
+			font-size: 75px;
 		}
 		a:hover {
-			color: $pink;
+			color: $off-black;		
 		}
 	}
 	h3.linkedin {
@@ -344,7 +345,7 @@ div.contact-container {
 		border-bottom: 1px solid $grey;
 		a {}
 		a:hover {
-			color: $dark-green;
+			color: white;
 		}
 	}
 }

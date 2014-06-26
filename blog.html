@@ -16,23 +16,24 @@
           <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
     <header>
-      <div class="ribbon"></div>
-      <a href="index.html">
-        <h1>JARED PHILLIPS</h1>
-      </a>
-      <!--  -->
-      <ul>
-        <li>
-          <a class="header-link nav-link" href="index.html#services"><span class="icon-briefcase"></span>Services</a>
+      <div class="ribbon" data-anijs="if: load, on: window, do: swing animated"></div>
+      <ul id="nav">
+        <li class="main">
+          <a href="index.html">
+            <h1 data-anijs="if: load, on: window, do: bounceInDown animated">JARED PHILLIPS</h1>
+          </a>
         </li>
-        <li>
-          <a class="header-link nav-link" href="index.html#work"><span class="icon-tools-2"></span>Work</a>
+        <li class="navs">
+          <a href="#services" class="header-link nav-link"><span class="icon-briefcase"></span>Services</a>
         </li>
-        <li>
-          <a class="header-link nav-link" href="index.html#contact"><span class="icon-chat"></span>Contact</a>
+        <li class="navs">
+          <a href="#work" class="header-link nav-link"><span class="icon-tools-2"></span>Work</a>
         </li>
-        <li>
-          <a class="header-link nav-link active" href="blog.html"><span class="icon-pencil"></span>Blog</a>
+        <li class="navs">
+          <a href="#contact" class="header-link nav-link"><span class="icon-chat"></span>Contact</a>
+        </li>
+        <li class="navs">
+          <a href="blog.html" class="header-link nav-link active"><span class="icon-pencil"></span>Blog</a>
         </li>
       </ul>
     </header>

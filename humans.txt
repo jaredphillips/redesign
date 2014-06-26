@@ -3,13 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Jared Phillips -- Designer/Developer -- @ruby_make_happy
 
 # THANKS
 
-    <name>
+    
 
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
-    jQuery, Modernizr
+    jQuery, Modernizr,
