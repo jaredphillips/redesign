@@ -190,16 +190,17 @@ div.me-container {
 			font-size: 3em;
 		}
 		div.photo {
+
 			width: 35%;
 			display: inline-block;
 			img {
 				position: relative;
-				top: -120px;
-				left: 0;
+				top: -90px;
+				left: -40px;
 			}
 		}
 		div.bio {
-			margin-top: -90px;
+			margin-top: -110px;
 			width: 60%;
 			display: inline-block;
 			float: right;
