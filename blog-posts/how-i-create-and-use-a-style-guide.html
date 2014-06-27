@@ -4,7 +4,9 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
+    <link rel="stylesheet" href="../css/main.css">
     <meta charset="UTF-8"></meta>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"></meta>
     <html lang="en">
@@ -17,31 +19,33 @@
     <meta content="http://jaredphillips.io" property="og:url"></meta>
     <script async="" src="//www.google-analytics.com/ga.js"></script>
     <meta name="description" content="Freelance Web Developer">
-    <title>Jared Phillips</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <title>Jared Phillips</title> 
   </head>
   <body>
       <!--[if lt IE 7]>
           <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
-     <header>
+    <header>
       <div class="ribbon" data-anijs="if: load, on: window, do: swing animated"></div>
       <div class="my-name">
-        <h1 data-anijs="if: load, on: window, do: bounceInDown animated"><a href="http://jaredphillips.io">JARED PHILLIPS</a></h1>
+        <h1 data-anijs="if: load, on: window, do: bounceInDown animated"><a href="index.html">JARED PHILLIPS</a></h1>
       </div>
       <div class="nav-pills">
         <ul>
           <li>
-            <a href="#services" class="header-link nav-link active"><span class="icon-briefcase"></span>Services</a>
+            <a href="http://jaredphillips.io/index.html#services" class="header-link nav-link"><span class="icon-briefcase"></span>Services</a>
           </li>
           <li>
-            <a href="#work" class="header-link nav-link"><span class="icon-tools-2"></span>Work</a>
+            <a href="http://jaredphillips.io/index.html#me" class="header-link nav-link"><span class="icon-ribbon"></span>Me</a>
           </li>
           <li>
-            <a href="#contact" class="header-link nav-link"><span class="icon-chat"></span>Contact</a>
+            <a href="http://jaredphillips.io/index.html#work" class="header-link nav-link"><span class="icon-tools-2"></span>Work</a>
           </li>
           <li>
-            <a href="blog.html" class="header-link nav-link"><span class="icon-pencil"></span>Blog</a>
+            <a href="http://jaredphillips.io/index.html#contact" class="header-link nav-link"><span class="icon-chat"></span>Contact</a>
+          </li>
+          <li>
+            <a href="blog.html" class="header-link nav-link active"><span class="icon-pencil"></span>Blog</a>
           </li>
         </ul>
       </div>
@@ -55,17 +59,44 @@
       <p class="published-date">Posted on: May 1st, 2014</p>
       <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jaredphillips.io/blog.html" data-text="How to Create and Use a Style Guide" data-via="ruby_make_happy" data-dnt="true">Tweet</a>
       <div class="blog-entry">
-        <p>Once upon a time, there was a <a href="#">place of great</a> goodness called the White Lodge. Fawns gamboled there amidst happy laughing spirits. The sounds of innocence and joy filled the air. When it rained, it rained sweet nectar that infused one's heart with the desire to live life in truth and beauty. Generally speaking, a ghastly place. Reeking of virtue's sour smell, engorged with the whispered prayers of kneeling mothers, mewling newborns, and fools young and old compelled to do good without reason. But, I am pleased to point out that our story does not end in this place of saccharine excess.</p>
-        <p>Once upon a time, there was a place of great goodness called the White Lodge. Fawns gamboled there amidst happy laughing spirits. The sounds of innocence and joy filled the air. When it rained, it rained sweet nectar that infused one's heart with the desire to live life in truth and beauty. Generally speaking, a ghastly place. Reeking of virtue's sour smell, engorged with the whispered prayers of kneeling mothers, mewling newborns, and fools young and old compelled to do good without reason. But, I am pleased to point out that our story does not end in this place of saccharine excess.</p>
-        <h4>"Small bleeder with a quote"</h4>
-        <script src="https://gist.github.com/jaredphillips/69a3b910a44182c31a88.js"></script>
-        <p>Once upon a time, there was a place of great goodness called the White Lodge. Fawns gamboled there amidst happy laughing spirits. The sounds of innocence and joy filled the air. When it rained, it rained sweet nectar that infused one's heart with the desire to live life in truth and beauty. Generally speaking, a ghastly place. Reeking of virtue's sour smell, engorged with the whispered prayers of kneeling mothers, mewling newborns, and fools young and old compelled to do good without reason. But, I am pleased to point out that our story does not end in this place of saccharine excess.</p>
-        <p>Once upon a time, there was a place of great goodness called the White Lodge. Fawns gamboled there amidst happy laughing spirits. The sounds of innocence and joy filled the air. When it rained, it rained sweet nectar that infused one's heart with the desire to live life in truth and beauty. Generally speaking, a ghastly place. Reeking of virtue's sour smell, engorged with the whispered prayers of kneeling mothers, mewling newborns, and fools young and old compelled to do good without reason. But, I am pleased to point out that our story does not end in this place of saccharine excess.</p>
+        <p>As a developer, I love to just rush in and get slinging code. In my early days of creating a site I’d most times just flesh out a design, motifs and colors on the fly. Pretty much freestyling and high fiving all the way to the finish. As you can imagine (or been there yourself), this almost never turns out good. Much like the youtube video of a skateboarder hurdling mach 10 at that railing, you know how it ends up. With a lot of pain. Styles are muddy, inconsistent and pretty damn ugly.</p>
 
+        <p>It wasn’t until just recently that someone let me in on the dirty little secret called the Style Guide! Style guide? I can hear you now, smacking your forehead. Of course, a Style Guide. And the really great news about the secret is that once you have one, its  easy to re-use and maintain. Thanks to <a href="http://brennaobrien.com">Brenna</a>, who shared her’s.</p>
+
+        <p>So for starters, what is a style guide? Well, in its simplest form, its a one page HTML document with some inline styles that will showcase all the design aspects on a single page. It forces you to mix and match colors and fonts, to focus your core design. A good style guide will cover everything that almost every project encounters. Things like, color scheme, fonts, buttons, etc. <a href="http://jaredphillips.io/style-guide.html">Here is mine</a> for this site redesign. As you can see, it covers the basic color palette first. For most projects, I start with a ‘main’ or ‘focal’ color usually found on the web somewhere.  A great tool for this is the <a href="http://www.colorzilla.com/chrome/">ColorZilla</a> chrome extension. Once I have that one great color, a good idea is to head over to <a href="https://kuler.adobe.com/explore/newest/">Adobe Kuler</a> and throw that color into the search and breeze through all the palettes that people have made and submitted. Take your time to find the right set. Once you've found one, click and it will give you the hex codes for all those colors, it’s like stealing (but not in a bad way).</p>
+
+        <p>Once you’ve got those five colors on lockdown (plus an off white and an off black), we can start our style guide. In the gist below, you can see the color and its inline style. Pretty simple right?</p>
+
+        <script src="https://gist.github.com/jaredphillips/37e31cbd5b395cd058fe.js"></script>
+
+        <p>Once we have those colors down, I imagine you feel a bit better now, that's a big hurdle. If we stick to the guide, our site will have a nice consistent palette. We rock!</p>
+
+        <p>Now on to the fonts. A good design can really shine with just two fonts as a general rule, a crazy Friday night bender for headings and "it's business time" one for body text.  With the rise in popularity of Google Fonts, you can easily scope out a couple of sweet fonts. The combinations are up to you and easy to include. I’ll be doing a blog post on custom fonts but for now, Google Fonts are fine.</p>
+
+        <script src="https://gist.github.com/jaredphillips/3872bfc4938f08ec94ae.js"></script>
+
+        <p>This is one way to do it, but for most of this stuff, I write all the rules in one big <style></style> tag for organization and so that I don’t have to change it twenty places if I decide I don’t like it (which will happen).</p>
+
+        <p>A good style guide takes time to create and it should. We are going to base the whole project on what we defined here.  Spend time on things like letter spacing and line height. Make sure that it looks great on your style guide before moving on to your project.<p>
+
+        <p>Only once I’m happy with how things are looking, I start the new project. "insert how you start your project" and crack open a brand new scss file. Make those colors you picked into variables and paste in the base styles you just created and create a default file something like this….</p>
+
+        <h4>_defaults.scss</h4>
+
+        <script src="https://gist.github.com/jaredphillips/a7657b952b3268c0b898.js"></script>
         
-        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
-        </script>
-      </div>
+        <p>This might also be a good place for that pesky box-border do-da and clearfix whatnots, but that's up to you. You gots to live your own life!</p>
+        <p>Once we’ve got that going, we’ve got all base styles needed and settled for the current project. Then when you’re knee deep in your next project, you can always refer to your Style Guide.</p> 
+
+        <p>To help get you started, here is my style guide free for download. Use as you wish. I’ve sprinkled with comments to help you out. <a href="https://github.com/jaredphillips/style-guide/tree/master">Or you can fork it over here on the github</a></p>
+
+        <a class="button" href="../assets/style-guide.html" download="style-guide">Download Style Guide</a></br></br>
+          
+     </div>
+       <!-- End of article  -->
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+      </script>
+      <!-- Comments Section -->
       <div id="disqus_thread">
       </div>
       <script type="text/javascript">
@@ -104,13 +135,13 @@
         </li>
       </ul>
     </footer>
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="js/min/smooth-scroll.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-    <script src="js/min/plugins.min.js"></script>
-    <script src="js/min/anijs-min.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js/min/anijs-min.js"></script>
+    <script src="../js/min/jquery-1.11.0.min.js"></script>
+    <script src="../js/min/modernizr-2.6.2.min.js"></script>
+    <script src="../js/min/plugins.min.js"></script>
+    <script src="../js/min/smooth-scroll.min.js"></script>
+    <script src="../js/vendor/toucheffects.js"></script>
+    <script src="../js/min/main.min.js"></script>
     <!-- Google analytics code -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -124,11 +155,5 @@
         ga('send', 'pageview');
 
     </script>
-    <!-- <script type="text/javascript">
-      smoothScroll.init({
-          speed: 900, 
-          offset: 90, 
-        });
-    </script> -->
   </body>
 </html>

@@ -4,7 +4,9 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
   <head>
+    <link rel="stylesheet" href="css/main.css">
     <meta charset="UTF-8"></meta>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"></meta>
     <html lang="en">
@@ -17,22 +19,24 @@
     <meta content="http://jaredphillips.io" property="og:url"></meta>
     <script async="" src="//www.google-analytics.com/ga.js"></script>
     <meta name="description" content="Freelance Web Developer">
-    <title>Jared Phillips</title>
-    <link rel="stylesheet" href="css/main.css">
+    <title>Jared Phillips</title> 
   </head>
   <body>
       <!--[if lt IE 7]>
           <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
       <![endif]-->
-     <header>
+    <header>
       <div class="ribbon" data-anijs="if: load, on: window, do: swing animated"></div>
       <div class="my-name">
-        <h1 data-anijs="if: load, on: window, do: bounceInDown animated"><a href="http://jaredphillips.io">JARED PHILLIPS</a></h1>
+        <h1 data-anijs="if: load, on: window, do: bounceInDown animated"><a href="index.html">JARED PHILLIPS</a></h1>
       </div>
       <div class="nav-pills">
         <ul>
           <li>
             <a href="#services" class="header-link nav-link active"><span class="icon-briefcase"></span>Services</a>
+          </li>
+          <li>
+            <a href="#me" class="header-link nav-link"><span class="icon-ribbon"></span>Me</a>
           </li>
           <li>
             <a href="#work" class="header-link nav-link"><span class="icon-tools-2"></span>Work</a>
@@ -45,9 +49,7 @@
           </li>
         </ul>
       </div>
-    </header>
-
-    
+    </header> 
     <!-- Blog section -->
     <section id="blog">
       <h2>THE BLOG</h2>
@@ -56,14 +58,13 @@
         <h3 class="title">
           <a href="blog-posts/how-i-create-and-use-a-style-guide.html">HOW TO CREATE A STYLE GUIDE</a>
         </h3>
-        <p class="date">Posted on May 1st, 2014</p>
+        <p class="date">Posted on June 27, 2014</p>
       </div>
-
       <div class="blog-entry">
         <h3 class="title">
-          <a href="#">MAKE YOUR OWN EMMETT SHORTCUT</a>
+          <a href="#">MAKE YOUR OWN EMMETT SHORTCUT (coming soon) </a>
         </h3>
-        <p class="date">Posted on  May 1st, 2014</p>
+        <p class="date">Scheduled on June 28, 2014</p>
       </div>
 
       <!-- <div class="blog-entry">
@@ -157,11 +158,9 @@
       </div> -->
       <a href="index.html#contact" class="button blog-button">Get in touch!</a>
     </section>
-
     <div class="clearing-fix"></div>
     <footer>
       <p>Design and development by <a href="http://www.github.com/jaredphillips">Jared Phillips</a></p>
-
       <ul class="mobile-footer">
         <li>
           <a href="index.html#services" class="footer-link nav-link"><span class="icon-briefcase"></span>Services</a>
@@ -177,13 +176,13 @@
         </li>
       </ul>
     </footer>
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="js/min/smooth-scroll.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
-    <script src="js/min/plugins.min.js"></script>
     <script src="js/min/anijs-min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/min/jquery-1.11.0.min.js"></script>
+    <script src="js/min/modernizr-2.6.2.min.js"></script>
+    <script src="js/min/plugins.min.js"></script>
+    <script src="js/min/smooth-scroll.min.js"></script>
+    <script src="js/vendor/toucheffects.js"></script>
+    <script src="js/min/main.min.js"></script>
     <!-- Google analytics code -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -197,11 +196,5 @@
         ga('send', 'pageview');
 
     </script>
-    <!-- <script type="text/javascript">
-      smoothScroll.init({
-          speed: 900, 
-          offset: 90, 
-        });
-    </script> -->
   </body>
 </html>
