@@ -4554,11 +4554,11 @@ a {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\0000348}}
   header div.my-name h1 {
     position: relative;
-    top: -20px;
+    top: -25px;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\0000351}}
   header div.my-name h1 a {
-    font-size: 0.8em;
+    font-size: 18px;
     color: #2c3e50;
     font-family: 'novecento_sans_widemedium';
     letter-spacing: 2.5px;
@@ -4632,7 +4632,7 @@ a {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003124}}
   div.me-container {
     width: 100%;
-    height: 950px;
+    height: 1100px;
     background: #fad77b;
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003129}}
@@ -4660,34 +4660,38 @@ a {
     width: 80%;
     margin: 0 auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003149}}
+  div.me-container div.content-container div.bio h3 {
+    text-align: center;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003152}}
   div.me-container div.content-container div.bio p {
     font-size: 15px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003154}}
   div.me-container div.content-container div.bio p a {
     color: white;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003165}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003167}}
   div.work-container {
     width: 90%;
     margin: 0 auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003170}}
   div.work-container h3 {
     text-align: center;
     font-size: 1.7em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003174}}
   div.work-container div.work {
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003174}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003176}}
   div.work-container div.work div.picture-frame {
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003176}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003178}}
   div.work-container div.work div.picture-frame .image {
     display: block;
     border: 1px solid #d3dddc;
@@ -4695,16 +4699,16 @@ a {
     height: 200px;
     margin: 0 auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003186}}
   div.work-container div.work h4 {
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003189}}
   div.work-container div.work p {
     text-align: center;
     font-size: 15px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003193}}
   div.work-container div.work a {
     width: 120px;
     height: 40px;
@@ -4717,31 +4721,35 @@ a {
     padding: 9px;
     border-radius: 5px;
     border: 2px solid #d3dddc;
-    color: #d3dddc;
+    color: #2c3e50;
+  }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003207}}
+  div.work-container div.work a.sneaky {
+    display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003214}}
   div.mobile-container {
     background-color: pink;
     height: 100%;
     padding-bottom: 20px;
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003219}}
   div.mobile-container h3 {
     font-size: 2em;
     padding-top: 25px;
     width: 100%;
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003221}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003225}}
   div.mobile-container img {
     margin: 0 auto;
     display: inline-block;
     max-width: 100%;
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003231}}
   div.mobile-container h4 {
     display: inline-block;
     width: 100%;
@@ -4749,29 +4757,29 @@ a {
     font-size: 1.5em;
     margin-top: 0px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003237}}
   div.mobile-container h4 a {
     color: white;
     font-family: 'novecento_sans_widemedium';
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003242}}
   div.mobile-container p.desc {
     width: 80%;
     margin: -16px auto;
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003247}}
   div.mobile-container p.tech {
     width: 80%;
     text-align: center;
     margin: 45px auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003251}}
   div.mobile-container p.tech span {
     color: white;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003259}}
   div.button-holder a.button {
     margin-top: 100px;
     padding: 15px;
@@ -4780,7 +4788,7 @@ a {
     transition: 0.5s;
     background-color: #fad77b;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003263}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003267}}
   div.button-holder a.button:hover {
     transition: 0.5s;
     border: 2px solid #fad77b;
@@ -4788,152 +4796,156 @@ a {
     background-color: #fad77b;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003279}}
   div.contact-container {
     width: 80%;
     margin: 0 auto;
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003279}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003283}}
   div.contact-container h3.bleeder {
     font-size: 2em;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003287}}
   div.contact-container h3.phone {
     border-bottom: 1px solid #d3dddc;
     margin-top: -30px;
     font-size: 2.4em;
     color: #f4b5bd;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003293}}
   div.contact-container h3.mail {
     border-bottom: 1px solid #d3dddc;
     margin-top: -20px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003296}}
   div.contact-container h3.mail a {
     text-align: center;
     font-size: 18px;
     color: #fad77b;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003301}}
   div.contact-container h3.mail a:hover {
     color: #85d4e3;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003305}}
   div.contact-container h3.twitter {
     padding-bottom: 20px;
     border-bottom: 1px solid #d3dddc;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003305}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003309}}
   div.contact-container h3.twitter a {
     font-size: 20px;
     color: #85d4e3;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003313}}
   div.contact-container h3.twitter a:hover {
     color: #fad77b;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003317}}
   div.contact-container p.github {
     vertical-align: middle;
     border-bottom: 1px solid #d3dddc;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003320}}
   div.contact-container p.github a {
     font-family: 'lookupregular';
     font-size: 70px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003324}}
   div.contact-container p.github a:hover {
     color: #f4b5bd;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003328}}
   div.contact-container h3.linkedin {
     padding-bottom: 30px;
     margin-bottom: 100px;
     border-bottom: 1px solid #d3dddc;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003332}}
   div.contact-container h3.linkedin a {
     font-family: 'novecento_sans_widemedium';
     font-size: 40px;
     color: #9c964a;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003337}}
   div.contact-container h3.linkedin a:hover {
     color: #85d4e3;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003341}}
   div.contact-container h3.codepen {
     border-bottom: 1px solid #d3dddc;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003344}}
   div.contact-container h3.codepen a:hover {
     color: #9c964a;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003354}}
   section {
     width: 90%;
     margin: 90px auto 30px auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003353}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003357}}
   section h2 {
     text-align: left;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003360}}
   section p.blog-intro {
     font-size: 12px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003358}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003362}}
   section p.blog-intro a {
     text-decoration: underline;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003370}}
   div.blog-entry h3.title a {
     font-family: 'novecento_sans_widemedium';
     color: #2c3e50;
     letter-spacing: 2px;
     font-size: 13px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003376}}
   div.blog-entry h3.title a:hover {
     color: #85d4e3;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003380}}
   div.blog-entry p.date {
     margin-top: -15px;
     font-size: 12px;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003387}}
   .blog-button {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003395}}
   article.blog-entry-container {
     width: 85%;
     margin: 95px auto 0 auto;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003398}}
   article.blog-entry-container h2 {
     font-size: 25px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003401}}
   article.blog-entry-container h3.blog-entry-bleeder {
     font-size: 14px;
     color: #95a5a6;
   }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003409}}
+  article.blog-entry-container div.blog-entry a {
+    color: #85d4e3;
+  }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003421}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003427}}
   div.button-holder {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003428}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003434}}
   footer {
     position: fixed;
     bottom: 0;
@@ -4941,35 +4953,36 @@ a {
     background: white;
     width: 100%;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003440}}
   footer p {
     display: none;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003437}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003443}}
   footer ul.mobile-footer {
+    background-color: #F2F1EF;
     width: 100%;
     margin: 0 auto;
     padding: 2% 0 2% 0;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003441}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003448}}
   footer ul.mobile-footer li {
     display: inline-block;
     width: 24%;
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003445}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003452}}
   footer ul.mobile-footer li .footer-link {
     color: #d3dddc;
     letter-spacing: 1px;
     font-size: 12px;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003457}}
   footer ul.mobile-footer li span {
     display: block;
     font-size: 25px;
     text-align: center;
   }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003455}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_mobile\.scss}line{font-family:\00003462}}
   footer ul.mobile-footer li .active {
     color: #2c3e50;
   }
@@ -5652,7 +5665,6 @@ a {
   }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/yep\/dev\/redesign\/css\/_full-size\.scss}line{font-family:\00003194}}
   div.me-container div.content-container div.photo img {
-    max-width: 100%;
     position: relative;
     top: -90px;
     left: -40px;
