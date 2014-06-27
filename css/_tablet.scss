@@ -178,19 +178,16 @@ div.me-container {
 	width: 100%;
 	height: 600px;
 	background: $yellow;
+	h2 {
+		padding-top: 1%;
+		display: block;
+		text-align: center;
+		font-size: 3em;
+	}
 	div.content-container {
 		width: 100%;
 		margin: 0 auto;
 		padding: 100px;
-		h2 {
-			font-size: 2em;
-			display: block;
-			position: relative;
-			top:-100px;
-			width: 100%;
-			text-align: center;
-			font-size: 3em;
-		}
 		div.photo {
 			display: inline-block;
 			position: relative;
