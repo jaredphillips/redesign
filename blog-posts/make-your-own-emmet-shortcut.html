@@ -54,17 +54,24 @@
     
     <!-- Blog section -->
     <article class="blog-entry-container">
-      <h2>HOW I CREATE AND USE A STYLE GUIDE</h2>
-      <h3 class="blog-entry-bleeder">Creating and using a styling is an easy way to solidify your design and future proof it.</h3>
-      <p class="published-date">Posted on: May 1st, 2014</p>
-      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://jaredphillips.io/blog.html" data-text="How to Create and Use a Style Guide" data-via="ruby_make_happy" data-dnt="true">Tweet</a>
+      <h2>MAKE YOUR OWN EMMET SHORTCUT</h2>
+      <h3 class="blog-entry-bleeder">We got this on lock</h3>
+      <p class="published-date">Posted on: June 27, 2014</p>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://bit.ly/1nPDvqe" data-text="Make Your Own Emmet Shortcut" data-via="ruby_make_happy" data-dnt="true">Tweet</a>
       <div class="blog-entry">
-        <p>Once upon a time, there was a <a href="#">place of great</a> goodness called the White Lodge. Fawns gamboled there amidst happy laughing spirits. The sounds of innocence and joy filled the air. When it rained, it rained sweet nectar that infused one's heart with the desire to live life in truth and beauty. Generally speaking, a ghastly place. Reeking of virtue's sour smell, engorged with the whispered prayers of kneeling mothers, mewling newborns, and fools young and old compelled to do good without reason. But, I am pleased to point out that our story does not end in this place of saccharine excess.</p>
-        <p>Once upon a time, there was a place of great goodness called the White Lodge. Fawns gamboled there amidst happy laughing spirits. The sounds of innocence and joy filled the air. When it rained, it rained sweet nectar that infused one's heart with the desire to live life in truth and beauty. Generally speaking, a ghastly place. Reeking of virtue's sour smell, engorged with the whispered prayers of kneeling mothers, mewling newborns, and fools young and old compelled to do good without reason. But, I am pleased to point out that our story does not end in this place of saccharine excess.</p>
-        <h4>"Small bleeder with a quote"</h4>
-        <script src="https://gist.github.com/jaredphillips/69a3b910a44182c31a88.js"></script>
-        <p>Once upon a time, there was a place of great goodness called the White Lodge. Fawns gamboled there amidst happy laughing spirits. The sounds of innocence and joy filled the air. When it rained, it rained sweet nectar that infused one's heart with the desire to live life in truth and beauty. Generally speaking, a ghastly place. Reeking of virtue's sour smell, engorged with the whispered prayers of kneeling mothers, mewling newborns, and fools young and old compelled to do good without reason. But, I am pleased to point out that our story does not end in this place of saccharine excess.</p>
-        <p>Once upon a time, there was a place of great goodness called the White Lodge. Fawns gamboled there amidst happy laughing spirits. The sounds of innocence and joy filled the air. When it rained, it rained sweet nectar that infused one's heart with the desire to live life in truth and beauty. Generally speaking, a ghastly place. Reeking of virtue's sour smell, engorged with the whispered prayers of kneeling mothers, mewling newborns, and fools young and old compelled to do good without reason. But, I am pleased to point out that our story does not end in this place of saccharine excess.</p>
+       <p>It was about the 4000 time that I typed “margin: 0 auto;” that I decided it was time to make my own binding in Emmet. It turns out, it was super simple and here’s how you do it (Assuming you have Emmet installed).</p>
+
+      <p><strong>Open Sublime Text. Go Preferences -> Package Settings -> Emmet -> Settings - User</strong></p>
+
+      <p>This should be a blank JSON file.</p>
+      <p>After doing some research, it appears that this is the magic formula for creating your own binding.</p>
+      <script src="https://gist.github.com/jaredphillips/bbcc8ad3955c1f72d24d.js"></script>
+      <p>With this info we can get started making our own. Fools think we'd be playing, but its about to get real in here. </p>
+      <p>I wanted to have two snippets, one for that dreaded 'margin: 0 auto;' and one to put some <a href="http://jaredphillips.io/twinpeaksipsum">Twin Peaks Ipsum</a> into projects.</p>
+      <script src="https://gist.github.com/jaredphillips/bde683a01459ac176b74.js"></script>
+      <p>For each file extension, you're going to have to declare the snippet. I write mostly in "scss" but just incase I have to write some straight up css, its on lock. If you get an error, JSON is a fickle beast. It doesn't care about white space but you're probably missing a comma. It helped me to think of hashes inside hashes and where those commas lined up.</p>
+      <p>Fools be typing 'margin: 0 auto' all day, I'd be all 'mz'.</p>
+
 
         
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
@@ -75,9 +82,9 @@
       <script type="text/javascript">
         /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
         var disqus_shortname = 'jaredphillips-blog'; // Required - Replace example with your forum shortname
-        var disqus_identifier = '00001';
-        var disqus_title = 'how i create and use a style guide';
-        var disqus_url = 'http://jaredphillips.io/blog-posts/how-i-create-and-use-a-style-guide.html';
+        var disqus_identifier = '00002';
+        var disqus_title = 'make your own emmett shortcut';
+        var disqus_url = 'http://jaredphillips.io/blog-posts/make-your-own-emmet-shortcut.html';
 
         /* * * DON'T EDIT BELOW THIS LINE * * */
           (function() {

@@ -38,10 +38,9 @@ header {
   div.my-name {
   	display: inline-block;
   	margin-left: 5%;
-  	margin-right: 350px;
   	h1 {
   		a {
-  			font-size: 1.5em;
+  			font-size: 100%;
 		  	color: $off-black;
 		  	font-family: 'novecento_sans_widemedium';
 				letter-spacing: 2.5px;
@@ -49,12 +48,13 @@ header {
   	}
   }
   div.nav-pills {
+  	min-width: 50%;
+  	max-width: 60%;
   	display: inline-block;
   	ul {
   		li {
   			display: inline-block;
-  			margin: 19px;
-
+  			margin: 1%;
   			a {
   				color: $grey;
   				span {
@@ -98,7 +98,7 @@ div.about {
 div.services {
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 90%;
 	text-align: center;
 	border-bottom: 1px solid $grey;
 	padding-bottom: 100px;
@@ -130,7 +130,7 @@ div.services {
   div.second-row {
   	margin: 50px 0px;
   	border-radius: 5px;
-  	width: 28%;
+  	width: 35%;
   	height: 300px;
   	display: inline-block;
   	vertical-align: top;
@@ -172,50 +172,32 @@ a.button:hover {
 // About Me Section
 
 div.me-container {
-	width: 100%;
-	height: 600px;
-	background: $yellow;
-	div.content-container {
-		width: 80%;
-		margin: 0 auto;
-		padding: 100px;
-		h2 {
-			font-size: 2em;
-			display: block;
-			position: relative;
-			top:-100px;
-			width: 100%;
-			text-align: center;
-			font-size: 3em;
-		}
-		div.photo {
-			width: 35%;
-			display: inline-block;
-			img {
-				// max-width: 100%;
-				position: relative;
-				top: -90px;
-				left: -40px;
-			}
-		}
-		div.bio {
-			position: relative;
-			top: -120px;
-			left: 40px;
-			margin-top: -110px;
-			width: 60%;
-			display: inline-block;
-			h3 {}
-			p {
-				a {
-					color: white;
-				}
-				a:hover {
-					color: $blue;
-				}
-			}
-		}
-	}
+	background-color: $yellow;
+	padding-bottom: 3%;
+  h2 {
+  	padding-top: 1%;
+  	text-align: center;
+  	font-size: 3em;
+  }
+  .content-container {
+  	width: 100%;
+  	div.photo {
+  		display: inline-block;
+  		width: 45%;
+  		text-align: right;
+  		padding-right: 2%;
+  		img {}
+  	}
+  	div.bio {
+  		display: inline-block;
+  		width: 45%;
+  		h3 {
+  		}
+  		p {
+  			a {}
+  		}
+  	}
+  }
 }
 
 // About me finished
@@ -224,7 +206,7 @@ div.me-container {
 
 // Projects Start
 div.work-container {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	height: auto;
 	padding-bottom: 50px;

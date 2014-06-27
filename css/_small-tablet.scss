@@ -1,11 +1,11 @@
 // Targeting Tablet Size 
 
-@media (min-width: 851px) and (max-width: 1000px) {
+@media (min-width: 769px) and (max-width: 850px) {
 
 body {
 	background-color: #f2f1ef;
 }
-
+// 
 // Header beginning
 
 header {
@@ -50,7 +50,7 @@ header {
   }
   div.nav-pills {
   	display: inline-block;
-  	width: 35%;
+  	width: 50%;
   	ul {
   		li {
   			display: inline-block;
@@ -101,7 +101,7 @@ div.services {
 	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 80%;
+	width: 95%;
 	text-align: center;
 	border-bottom: 1px solid $grey;
 	padding-bottom: 100px;
@@ -113,7 +113,7 @@ div.services {
   div.first-row {
   	box-sizing: border-box;
   	border-radius: 10px;
-  	width: 28%;
+  	width: 30%;
   	height: 300px;
   	display: inline-block;
   	vertical-align: top;
@@ -196,8 +196,8 @@ div.me-container {
 			position: relative;
 			top: -220px;
 			img {
-				height: 250px;
-				width: 250px;
+				height: 200px;
+				width: 200px;
 			}
 		}
 		div.bio {
@@ -210,7 +210,7 @@ div.me-container {
 				font-size: 0.9em;
 			}
 			p {
-				font-size: 15px;
+				font-size: 12px;
 				a {
 					color: white;
 				}
