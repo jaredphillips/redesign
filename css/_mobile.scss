@@ -1,5 +1,4 @@
 // Targeting iphone size devices
-
 @media (max-width: 768px) {
 
 body {
@@ -12,7 +11,6 @@ body {
 }
 
 // Header start
-
 header {
 	z-index: 1;
 	width: 100%;
@@ -60,11 +58,9 @@ header {
   	display: none;
   }
 }
-
 // Header finished
 
 // Services start
-
 .about {
 	box-sizing: border-box;
 	padding: 0 2%;
@@ -157,12 +153,9 @@ div.me-container {
 		}
 	}
 }
-
-
 // About me finish
 
 // Projects start
-
 div.work-container {
 	width: 90%;
 	margin: 0 auto;
@@ -209,7 +202,6 @@ div.work-container {
 	}
 }
 
-
 div.mobile-container {
 	background-color: pink;
 	height: 100%;
@@ -253,7 +245,6 @@ div.mobile-container {
 	}
 }
 
-
 div.button-holder {
 	a.button {
 		margin-top: 100px;
@@ -270,11 +261,9 @@ div.button-holder {
 		background-color: $yellow;
 	}
 }
-
 //  Projects finished
 
 // Contact start
-
 div.contact-container {
 	width: 80%;
 	margin: 0 auto;
@@ -345,7 +334,6 @@ div.contact-container {
 		}
 	}
 }
-
 // Contact finish
 
 // Blog start
@@ -389,8 +377,6 @@ div.blog-entry {
 // Blog main page/index finished
 
 // Blog entry start
-
-
 article.blog-entry-container {
 	width: 85%;
 	margin: 95px auto 0 auto;
@@ -411,25 +397,14 @@ article.blog-entry-container {
 		h4 {}
 	}
 }
-div#disqus_thread {}
-
-
-
-
-
-
 // Blog entry finish
-
-
 // Blog finish
 
 div.button-holder {
 	display: none;
 }
 
-
 // Footer start
-
 footer {
 	position: fixed;
 	bottom: 0;

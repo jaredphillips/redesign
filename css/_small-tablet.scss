@@ -5,9 +5,8 @@
 body {
 	background-color: #f2f1ef;
 }
-// 
-// Header beginning
 
+// Header beginning
 header {
 	position: fixed;
 	top: 0;
@@ -72,12 +71,9 @@ header {
   	}
   }
 }
-
-
 // Header end
 
 // About beginning 
-
 div.about {
 	height: 500px;
 	background-color: $blue;
@@ -92,11 +88,9 @@ div.about {
   	font-size: 1.5em;
   }
 }
-
 // About Ending
 
 // Services Beginning
-
 div.services {
 	margin-top: 100px;
 	margin-left: auto;
@@ -173,7 +167,6 @@ a.button:hover {
 // Services Finish
 
 // About Me Section
-
 div.me-container {
 	width: 100%;
 	height: 600px;
@@ -218,10 +211,7 @@ div.me-container {
 		}
 	}
 }
-
 // About me finished
-
-
 
 // Projects Start
 div.work-container {
@@ -255,24 +245,18 @@ div.work-container {
 		}
 	}
 }
-
-
-
 // Projects finish
 
 // Contact Me start
-
 div.contact-container {
 	width: 50%;
 	margin: 0 auto;
 	text-align: center;
 	h3.bleeder {
-
 		border-bottom: 1px solid $grey;
 		font-size: 3em;
 	}
 	h3.phone {
-
 		border-bottom: 1px solid $grey;
 		margin-top: -60px;
 		font-size: 4em;
@@ -291,7 +275,6 @@ div.contact-container {
 		}
 	}
 	h3.twitter {
-		// margin-top: -40px;
 		border-bottom: 1px solid $grey;
 		a {
 			font-size: 50px;
@@ -336,13 +319,10 @@ div.contact-container {
 		}
 	}
 }
-
 // Contact Me Finish
 
 // Blog start
-
 // Blog index page
-
 section {
 	margin: 140px 10% 140px 10%;
 	h2 {
@@ -381,11 +361,9 @@ section {
 		}
 	}
 }
-
 // Blog Index finished
 
 // Individual Article start
-
 article.blog-entry-container {
 	width: 80%;
 	margin: 150px auto;
@@ -428,11 +406,7 @@ article.blog-entry-container {
 		margin: 40px auto;
 	}
 }
-
-
 // Individual article finished
-
-
 // Blog finish
 
 // Footer Start
