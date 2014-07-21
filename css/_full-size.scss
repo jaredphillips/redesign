@@ -441,10 +441,21 @@ article.blog-entry-container {
 			color: $pink;
 			font-style: bold;
 		}
+		a:hover {
+			color: $blue;
+		}
 	}
 	h4 {
 		font-family: 'sofia_pro_lightregular';
 		font-style: italic;
+	}
+	img {
+		max-width: 100%;
+		display: block;
+		margin: 40px auto;
+		-webkit-box-shadow: 0px 2px 12px 0px rgba(50, 50, 50, 0.75);
+		-moz-box-shadow:    0px 2px 12px 0px rgba(50, 50, 50, 0.75);
+		box-shadow:         0px 2px 12px 0px rgba(50, 50, 50, 0.75);
 	}
 	.blog-contact {
 		margin-top: 50px;

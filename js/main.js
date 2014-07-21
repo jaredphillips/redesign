@@ -6,7 +6,7 @@
 
   smoothScroll.init({
     speed: 900,
-    offset: 130
+    offset: 90
   });
 
 }).call(this);
